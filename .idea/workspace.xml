@@ -156,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/dashboard" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,6 +165,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\steve\projects\pokt-runner-dashboard\templates\dashboard" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\steve\projects\pokt-runner-dashboard\src\Service" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -180,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637749208665</updated>
-      <workItem from="1637749209684" duration="11804000" />
+      <workItem from="1637749209684" duration="19277000" />
     </task>
     <servers />
   </component>
@@ -188,13 +194,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1085" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1637764687132">
+    <state x="1085" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1637769301180">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1085" y="436" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/-1440.-679.1152.2048@0.0.2560.1440" timestamp="1637764687132" />
-    <state x="981" y="443" key="NewPhpClassDialog" timestamp="1637760965819">
+    <state x="1085" y="436" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/-1440.-679.1152.2008@0.0.2560.1440" timestamp="1637769301180" />
+    <state x="1085" y="436" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/-1440.-679.1152.2048@0.0.2560.1440" timestamp="1637768214756" />
+    <state x="981" y="443" key="NewPhpClassDialog" timestamp="1637766373442">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="981" y="443" key="NewPhpClassDialog/0.0.2560.1440/-1440.-679.1152.2048@0.0.2560.1440" timestamp="1637760965819" />
+    <state x="981" y="443" key="NewPhpClassDialog/0.0.2560.1440/-1440.-679.1152.2048@0.0.2560.1440" timestamp="1637766373442" />
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1637766271207">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440/-1440.-679.1152.2048@0.0.2560.1440" timestamp="1637766271207" />
   </component>
 </project>

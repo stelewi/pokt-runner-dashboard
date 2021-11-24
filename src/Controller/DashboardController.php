@@ -2,7 +2,9 @@
 
 namespace App\Controller;
 
-use App\Data\Node;
+use App\Entity\Node;
+use App\Repository\NodeInfoRepository;
+use App\Repository\NodeRepository;
 use App\Service\NodeInfoService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -13,22 +15,46 @@ class DashboardController extends AbstractController
     /**
      * @Route("/", name="dashboard")
      */
-    public function index(NodeInfoService $nodeInfoService): Response
-    {
-        $nodes = [
-            new Node(Node::TYPE_HARMONY, 'Harmony Explorer Node #1', '178.62.116.190', '10.106.0.3'),
-            new Node(Node::TYPE_POCKET, 'Pocket Node #1', 'node1.pokt.online', '10.106.0.2'),
-        ];
+    public function index(
+        NodeRepository $nodeRepository,
+        NodeInfoService $nodeInfoService
+    ): Response {
+
+
+        $nodes = $nodeRepository->findAll();
 
         $nodeData = array_map(function (Node $node) use ($nodeInfoService) {
             return [
                 'node' => $node,
-                'info' => $nodeInfoService->getNodeInfo($node)
+                'info' => $nodeInfoService->getNodeInfo($node, false)
             ];
-        }, $nodes);
+        }, $nodeRepository->findAll());
 
         return $this->render('dashboard/index.html.twig', [
             'data' => $nodeData
         ]);
     }
+
+    /**
+     * @Route("/node-info/{id}", name="node_info")
+     */
+    public function node(
+        Node $node,
+        NodeInfoRepository $nodeInfoRepository
+    ): Response {
+
+        $infos = $nodeInfoRepository->findBy(
+            ['node' => $node],
+            ['time' => 'DESC'],
+            1000
+        );
+
+        return $this->render('dashboard/node-info.html.twig', [
+            'node' => $node,
+            'infos' => $infos
+        ]);
+    }
+
+
+
 }
