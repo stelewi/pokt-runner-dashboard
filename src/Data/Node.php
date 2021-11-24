@@ -25,16 +25,23 @@ class Node
     private $hostname;
 
     /**
+     * @var string
+     */
+    private $privateIp;
+
+    /**
      * Node constructor.
      * @param string $type
      * @param $name
      * @param string $hostname
+     * @param string $privateIp
      */
-    public function __construct(string $type, $name, string $hostname)
+    public function __construct(string $type, $name, string $hostname, string $privateIp)
     {
         $this->type = $type;
         $this->name = $name;
         $this->hostname = $hostname;
+        $this->privateIp = $privateIp;
     }
 
     /**
@@ -59,6 +66,14 @@ class Node
     public function getHostname(): string
     {
         return $this->hostname;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPrivateIp(): string
+    {
+        return $this->privateIp;
     }
 
 

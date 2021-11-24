@@ -83,7 +83,7 @@ class NodeInfoService
         $blockChainHeight = isset($data['current-block-number']) ? (int) $data['current-block-number'] : null;
 
         /******** Check our node height ********/
-        $data = $this->harmonyClient->hmy_getNodeMetadata('http://' . $node->getHostname() . ':9500');
+        $data = $this->harmonyClient->hmy_getNodeMetadata('http://' . $node->getPrivateIp() . ':9500');
         $height = isset($data['current-block-number']) ? (int) $data['current-block-number'] : null;
 
 

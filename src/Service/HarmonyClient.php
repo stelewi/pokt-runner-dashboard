@@ -46,6 +46,7 @@ class HarmonyClient
                 'headers' => [
                     'Content-Type' => 'application/json',
                 ],
+                'max_duration' => 5,
                 'body' => json_encode($requestData)
             ]);
 

@@ -16,8 +16,8 @@ class DashboardController extends AbstractController
     public function index(NodeInfoService $nodeInfoService): Response
     {
         $nodes = [
-            new Node(Node::TYPE_HARMONY, 'Harmony Explorer Node #1', '178.62.116.190'),
-            new Node(Node::TYPE_POCKET, 'Pocket Node #1', 'node1.pokt.online'),
+            new Node(Node::TYPE_HARMONY, 'Harmony Explorer Node #1', '178.62.116.190', '10.106.0.3'),
+            new Node(Node::TYPE_POCKET, 'Pocket Node #1', 'node1.pokt.online', '10.106.0.2'),
         ];
 
         $nodeData = array_map(function (Node $node) use ($nodeInfoService) {
