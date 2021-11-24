@@ -1,0 +1,4 @@
+name: pokt-runner-dashboard
+recipe: lamp
+config:
+  webroot: public
