@@ -81,7 +81,7 @@ class PocketClient
 
             $data = $response->toArray(false);
 
-            return isset($data['result']) ? $data['result'] : null;
+            return isset($data['jailed']) ? $data : null;
         }
         catch (\Exception $e)
         {
