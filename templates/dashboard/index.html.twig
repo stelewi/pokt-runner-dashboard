@@ -45,7 +45,9 @@
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap">
                                 <div class="text-sm text-gray-900">{{ row.node.name  }}</div>
+                                <div class="text-xs text-gray-400">{{ row.info.validatorAddress }}</div>
                                 <div class="text-sm text-gray-400">refreshed @ {{ row.info.time | date('d M H:i:s') }}</div>
+
 
 
                             </td>
@@ -91,7 +93,6 @@
                                     {% endif %}
                                 </p>
                                 <p>Tokens: {{ row.info.tokens }}</p>
-                                <p>Validator Address: {{ row.info.validatorAddress }}</p>
 
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
