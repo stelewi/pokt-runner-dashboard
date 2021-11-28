@@ -83,6 +83,8 @@ class NodeInfoService
         $jailed = null;
         $tokens = null;
         $isStaked = null;
+        $validatorAddress = null;
+        $votingPower = null;
 
 
         /******** Check blockchain height ********/
@@ -96,6 +98,23 @@ class NodeInfoService
         {
             $isSynced = !$data['sync_info']['catching_up'];
             $height = $data['sync_info']['latest_block_height'];
+            $validatorAddress = $data['validator_info']['address'];
+            $votingPower = $data['validator_info']['voting_power'];
+        }
+
+        /******** Check Validator  ********/
+        if($validatorAddress !== null)
+        {
+            $data = $this->pocketClient->queryValidatorNode(
+                'http://' . $node->getPrivateIp() . ':8082/',
+                $validatorAddress
+            );
+
+            if($data !== null)
+            {
+                $jailed = $data['jailed'];
+                $tokens = $data['tokens'];
+            }
         }
 
         return new NodeInfo(
@@ -106,7 +125,10 @@ class NodeInfoService
             $node,
             $jailed,
             null,
-            $tokens
+            $tokens,
+            $isStaked,
+            $validatorAddress,
+            $votingPower
         );
     }
 

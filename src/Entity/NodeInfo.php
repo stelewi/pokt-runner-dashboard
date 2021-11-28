@@ -64,6 +64,16 @@ class NodeInfo
     private $isStaked;
 
     /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $validatorAddress;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $votingPower;
+
+    /**
      * NodeInfo constructor.
      * @param $time
      * @param $isSynced
@@ -75,7 +85,7 @@ class NodeInfo
      * @param $tokens
      * @param $isStaked
      */
-    public function __construct($time, $isSynced, $height, $blockChainHeight, $node, $jailed = null, $diskSpaceRemaining = null, $tokens = null, $isStaked = null)
+    public function __construct($time, $isSynced, $height, $blockChainHeight, $node, $jailed = null, $diskSpaceRemaining = null, $tokens = null, $isStaked = null, $validatorAddress = null, $votingPower = null )
     {
         $this->time = $time;
         $this->isSynced = $isSynced;
@@ -86,6 +96,8 @@ class NodeInfo
         $this->diskSpaceRemaining = $diskSpaceRemaining;
         $this->tokens = $tokens;
         $this->isStaked = $isStaked;
+        $this->validatorAddress = $validatorAddress;
+        $this->votingPower = $votingPower;
     }
 
 
@@ -198,6 +210,30 @@ class NodeInfo
     public function setIsStaked(?bool $isStaked): self
     {
         $this->isStaked = $isStaked;
+
+        return $this;
+    }
+
+    public function getValidatorAddress(): ?string
+    {
+        return $this->validatorAddress;
+    }
+
+    public function setValidatorAddress(?string $validatorAddress): self
+    {
+        $this->validatorAddress = $validatorAddress;
+
+        return $this;
+    }
+
+    public function getVotingPower(): ?string
+    {
+        return $this->votingPower;
+    }
+
+    public function setVotingPower(?string $votingPower): self
+    {
+        $this->votingPower = $votingPower;
 
         return $this;
     }

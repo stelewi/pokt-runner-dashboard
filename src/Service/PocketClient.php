@@ -31,7 +31,7 @@ class PocketClient
      * @throws \Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface
      * @throws \Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface
      */
-    public function nodeStatus(string $host = 'https://api.s0.t.hmny.io/'): ?array
+    public function nodeStatus(string $host = null): ?array
     {
         $requestData = [
             "payload" => [
@@ -45,6 +45,33 @@ class PocketClient
         try {
 
             $response = $this->httpClient->request('POST', $host . 'status', [
+                'headers' => [
+                    'Content-Type' => 'application/json',
+                ],
+                'max_duration' => 5,
+                'body' => json_encode($requestData)
+            ]);
+
+            $data = $response->toArray(false);
+
+            return isset($data['result']) ? $data['result'] : null;
+        }
+        catch (\Exception $e)
+        {
+            return null;
+        }
+    }
+
+    public function queryValidatorNode(string $host = null, string $address): ?array
+    {
+        $requestData = [
+            'address' => $address,
+            'height' => 0
+        ];
+
+        try {
+
+            $response = $this->httpClient->request('POST', $host . 'v1/query/node', [
                 'headers' => [
                     'Content-Type' => 'application/json',
                 ],
