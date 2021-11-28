@@ -82,12 +82,8 @@ class NodeInfoService
         $blockChainHeight = null;
 
         /******** Check blockchain height ********/
-//        $data = $this->pocketClient->nodeStatus('http://' . $node->getHostname() . ':26657/');
-//
-//        if($data !== null)
-//        {
-//            $blockChainHeight = $data['sync_info']['latest_block_height'];
-//        }
+        $blockChainHeight = $this->pocketClient->nodeHeight();
+
 
         /******** Check our node  ********/
         $data = $this->pocketClient->nodeStatus('http://' . $node->getPrivateIp() . ':26657/');
