@@ -21,7 +21,7 @@
                     <table class="min-w-full divide-y divide-gray-200">
                         <thead class="bg-gray-50">
                         <tr>
-                            {% for col in ['Type', 'Name', 'Host', 'Sync Status', 'Node Height', 'Blockchain Height', ''] %}
+                            {% for col in ['Type', 'Name', 'Host', 'Sync Status', 'Node/Blockchain Height', 'Info', ''] %}
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                                     {{ col }}
                                 </th>
@@ -70,15 +70,29 @@
                                     {% endif %}
                                     {{ row.info.height  }}
 
-                                </div>
-                            </td>
-                            <td class="px-6 py-4 whitespace-nowrap">
-                                <div class="text-sm text-gray-900">
+                                    /
+
                                     {% if row.info.blockChainHeight is null %}
                                         {{ _self.tag('Unknown') }}
                                     {% endif %}
                                     {{ row.info.blockChainHeight  }}
+
                                 </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <p>
+                                    Jailed:
+                                    {% if row.info.jailed is null %}
+                                        {{ _self.tag('Unknown') }}
+                                    {% elseif row.info.jailed %}
+                                        {{ _self.tag('Yes', 'red') }}
+                                    {% else %}
+                                        {{ _self.tag('No', 'green') }}
+                                    {% endif %}
+                                </p>
+                                <p>Tokens: {{ row.info.tokens }}</p>
+                                <p>Validator Address: {{ row.info.validatorAddress }}</p>
+
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                 <a href="{{ path('node_info', { 'id': row.node.id } ) }}" class="text-indigo-600 hover:text-indigo-900">View Info</a>
