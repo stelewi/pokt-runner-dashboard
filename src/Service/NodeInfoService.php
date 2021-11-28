@@ -113,7 +113,7 @@ class NodeInfoService
             if($data !== null)
             {
                 $jailed = $data['jailed'];
-                $tokens = (string) $data['tokens'];
+                $tokens = $data['tokens'];
             }
         }
 
