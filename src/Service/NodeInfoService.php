@@ -80,6 +80,10 @@ class NodeInfoService
         $isSynced = null;
         $height = null;
         $blockChainHeight = null;
+        $jailed = null;
+        $tokens = null;
+        $isStaked = null;
+
 
         /******** Check blockchain height ********/
         $blockChainHeight = $this->pocketClient->nodeHeight();
@@ -99,7 +103,10 @@ class NodeInfoService
             $isSynced,
             $height,
             $blockChainHeight,
-            $node
+            $node,
+            $jailed,
+            null,
+            $tokens
         );
     }
 
