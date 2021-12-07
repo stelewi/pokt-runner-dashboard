@@ -97,7 +97,7 @@ class NodeInfoService
         $data = $this->ethClient->eth_syncing('http://' . $node->getPrivateIp() . ':8545');
 
         $isSynced = $data === null;
-        $blockChainHeight = isset($data['highestBlock']) ? (int) $data['highestBlock'] : null;
+        $blockChainHeight = isset($data['highestBlock']) ? (int) hexdec($data['highestBlock']) : null;
 
 
         $stageNum = 0;
@@ -111,7 +111,7 @@ class NodeInfoService
             }
 
             $info = "Stage $stageNum of 11; " . $stage['stage_name'];
-            $height = $stage['block_number'];
+            $height = hexdec($stage['block_number']);
         }
 
         $nodeInfo = new NodeInfo(
