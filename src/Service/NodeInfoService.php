@@ -114,14 +114,17 @@ class NodeInfoService
             $height = $stage['block_number'];
         }
 
-        return new NodeInfo(
+        $nodeInfo = new NodeInfo(
             $time,
             $isSynced,
             $height,
             $blockChainHeight,
-            $node,
-            $info
+            $node
         );
+
+        $nodeInfo->setInfo($info);
+
+        return $nodeInfo;
     }
 
     private function getPoktNodeInfo(Node $node): NodeInfo

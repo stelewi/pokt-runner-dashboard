@@ -94,9 +94,8 @@ class NodeInfo
      * @param $votingPower
      * @param $info
      */
-    public function __construct($id, $time, $isSynced, $height, $blockChainHeight, $node, $jailed, $diskSpaceRemaining, $tokens, $isStaked, $validatorAddress, $votingPower, $info)
+    public function __construct($time, $isSynced, $height, $blockChainHeight, $node, $jailed = null, $diskSpaceRemaining = null, $tokens = nul, $isStaked = null, $validatorAddress = null, $votingPower = null, $info = null)
     {
-        $this->id = $id;
         $this->time = $time;
         $this->isSynced = $isSynced;
         $this->height = $height;

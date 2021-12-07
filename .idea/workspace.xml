@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95953b23-230f-40f4-9362-9ffa8868bf9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/EthClient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Node.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/NodeInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/NodeInfo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/NodeInfoService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/NodeInfoService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638825991803</updated>
       <workItem from="1638825992816" duration="770000" />
-      <workItem from="1638909648274" duration="2673000" />
+      <workItem from="1638909648274" duration="2943000" />
     </task>
     <servers />
   </component>
