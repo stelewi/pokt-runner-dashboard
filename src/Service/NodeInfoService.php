@@ -110,7 +110,7 @@ class NodeInfoService
                 break;
             }
 
-            $info = "Stage $stage of 11; " . $stage['stage_name'];
+            $info = "Stage $stageNum of 11; " . $stage['stage_name'];
             $height = $stage['block_number'];
         }
 
