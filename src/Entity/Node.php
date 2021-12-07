@@ -14,6 +14,7 @@ class Node
 {
     const TYPE_HARMONY = 'harmony';
     const TYPE_POCKET = 'pocket';
+    const TYPE_ETH_MAIN = 'eth-mainnet';
 
     /**
      * @ORM\Id

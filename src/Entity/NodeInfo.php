@@ -74,7 +74,13 @@ class NodeInfo
     private $votingPower;
 
     /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $info;
+
+    /**
      * NodeInfo constructor.
+     * @param $id
      * @param $time
      * @param $isSynced
      * @param $height
@@ -84,9 +90,13 @@ class NodeInfo
      * @param $diskSpaceRemaining
      * @param $tokens
      * @param $isStaked
+     * @param $validatorAddress
+     * @param $votingPower
+     * @param $info
      */
-    public function __construct($time, $isSynced, $height, $blockChainHeight, $node, $jailed = null, $diskSpaceRemaining = null, $tokens = null, $isStaked = null, $validatorAddress = null, $votingPower = null )
+    public function __construct($id, $time, $isSynced, $height, $blockChainHeight, $node, $jailed, $diskSpaceRemaining, $tokens, $isStaked, $validatorAddress, $votingPower, $info)
     {
+        $this->id = $id;
         $this->time = $time;
         $this->isSynced = $isSynced;
         $this->height = $height;
@@ -98,6 +108,7 @@ class NodeInfo
         $this->isStaked = $isStaked;
         $this->validatorAddress = $validatorAddress;
         $this->votingPower = $votingPower;
+        $this->info = $info;
     }
 
 
@@ -234,6 +245,18 @@ class NodeInfo
     public function setVotingPower(?string $votingPower): self
     {
         $this->votingPower = $votingPower;
+
+        return $this;
+    }
+
+    public function getInfo(): ?string
+    {
+        return $this->info;
+    }
+
+    public function setInfo(?string $info): self
+    {
+        $this->info = $info;
 
         return $this;
     }

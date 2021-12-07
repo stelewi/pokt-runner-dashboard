@@ -27,6 +27,11 @@ class NodeInfoService
     private $pocketClient;
 
     /**
+     * @var EthClient
+     */
+    private $ethClient;
+
+    /**
      * @var NodeInfoRepository
      */
     private $nodeInfoRepo;
@@ -36,15 +41,18 @@ class NodeInfoService
      * @param HttpClientInterface $httpClient
      * @param HarmonyClient $harmonyClient
      * @param PocketClient $pocketClient
+     * @param EthClient $ethClient
      * @param NodeInfoRepository $nodeInfoRepo
      */
-    public function __construct(HttpClientInterface $httpClient, HarmonyClient $harmonyClient, PocketClient $pocketClient, NodeInfoRepository $nodeInfoRepo)
+    public function __construct(HttpClientInterface $httpClient, HarmonyClient $harmonyClient, PocketClient $pocketClient, EthClient $ethClient, NodeInfoRepository $nodeInfoRepo)
     {
         $this->httpClient = $httpClient;
         $this->harmonyClient = $harmonyClient;
         $this->pocketClient = $pocketClient;
+        $this->ethClient = $ethClient;
         $this->nodeInfoRepo = $nodeInfoRepo;
     }
+
 
     public function getNodeInfo(Node $node, $createNew = true): NodeInfo
     {
@@ -69,9 +77,51 @@ class NodeInfoService
             case Node::TYPE_HARMONY:
                 return $this->getHarmonyNodeInfo($node);
 
+            case Node::TYPE_ETH_MAIN:
+                return $this->getEthNodeInfo($node);
+
             default:
                 throw new \Exception('Unknown Node Type');
         }
+    }
+
+    private function getEthNodeInfo(Node $node): NodeInfo
+    {
+        $time = new \DateTimeImmutable();
+        $isSynced = null;
+        $height = null;
+        $blockChainHeight = null;
+        $info = null;
+
+        /******** Check our node height ********/
+        $data = $this->ethClient->eth_syncing('http://' . $node->getPrivateIp() . ':8545');
+
+        $isSynced = $data === null;
+        $blockChainHeight = isset($data['highestBlock']) ? (int) $data['highestBlock'] : null;
+
+
+        $stageNum = 0;
+        foreach ($data['stages'] as $stage)
+        {
+            $stageNum++;
+
+            if($stage['block_number'] === '0x0')
+            {
+                break;
+            }
+
+            $info = "Stage $stage of 11; " . $stage['stage_name'];
+            $height = $stage['block_number'];
+        }
+
+        return new NodeInfo(
+            $time,
+            $isSynced,
+            $height,
+            $blockChainHeight,
+            $node,
+            $info
+        );
     }
 
     private function getPoktNodeInfo(Node $node): NodeInfo
