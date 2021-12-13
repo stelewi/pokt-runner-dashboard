@@ -43,9 +43,15 @@ class NodeInfoRefresher
 
         foreach ($nodes as $node)
         {
-            $nodeInfo = $this->nodeInfoService->getNodeInfo($node);
+            try {
+                $nodeInfo = $this->nodeInfoService->getNodeInfo($node);
 
-            $this->em->persist($nodeInfo);
+                $this->em->persist($nodeInfo);
+            }
+            catch (\Exception $e)
+            {
+                error_log('Y U NO WORK node#' . $node->getId());
+            }
         }
 
         $this->em->flush();
