@@ -98,21 +98,7 @@ class NodeInfoService
 
         $isSynced = $data === null;
         $blockChainHeight = isset($data['highestBlock']) ? (int) hexdec($data['highestBlock']) : null;
-
-
-        $stageNum = 0;
-        foreach ($data['stages'] as $stage)
-        {
-            $stageNum++;
-
-            if($stage['block_number'] === '0x0')
-            {
-                break;
-            }
-
-            $info = "Stage $stageNum of 11; " . $stage['stage_name'];
-            $height = hexdec($stage['block_number']);
-        }
+        $height = isset($data['currentBlock']) ? (int) hexdec($data['currentBlock']) : null;
 
         $nodeInfo = new NodeInfo(
             $time,
