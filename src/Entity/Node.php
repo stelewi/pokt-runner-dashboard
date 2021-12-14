@@ -48,6 +48,16 @@ class Node
      */
     private $infos;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $rpcPort;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $secondaryRpcPort;
+
     public function __construct()
     {
         $this->infos = new ArrayCollection();
@@ -132,6 +142,30 @@ class Node
                 $info->setNode(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getRpcPort(): ?string
+    {
+        return $this->rpcPort;
+    }
+
+    public function setRpcPort(?string $rpcPort): self
+    {
+        $this->rpcPort = $rpcPort;
+
+        return $this;
+    }
+
+    public function getSecondaryRpcPort(): ?string
+    {
+        return $this->secondaryRpcPort;
+    }
+
+    public function setSecondaryRpcPort(?string $secondaryRpcPort): self
+    {
+        $this->secondaryRpcPort = $secondaryRpcPort;
 
         return $this;
     }

@@ -120,18 +120,20 @@ class NodeInfoService
         $height = null;
         $blockChainHeight = null;
         $jailed = null;
-        $tokens = null;
+        $tokens = null;:win32_query_service_status()
         $isStaked = null;
         $validatorAddress = null;
         $votingPower = null;
 
+        $poktRpcPort = $node->getRpcPort() ?? '8082';
+        $tendermintRpcPort = $node->getSecondaryRpcPort() ?? '26657';
 
         /******** Check blockchain height ********/
         $blockChainHeight = $this->pocketClient->nodeHeight();
 
 
         /******** Check our node  ********/
-        $data = $this->pocketClient->nodeStatus('http://' . $node->getPrivateIp() . ':26657/');
+        $data = $this->pocketClient->nodeStatus('http://' . $node->getPrivateIp() . ":{$tendermintRpcPort}/");
 
         if($data !== null)
         {
@@ -145,7 +147,7 @@ class NodeInfoService
         if($validatorAddress !== null)
         {
             $data = $this->pocketClient->queryValidatorNode(
-                'http://' . $node->getPrivateIp() . ':8082/',
+                'http://' . $node->getPrivateIp() . ':{$poktRpcPort}/',
                 $validatorAddress
             );
 
