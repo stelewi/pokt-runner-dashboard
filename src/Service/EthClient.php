@@ -31,7 +31,7 @@ class EthClient
      * @throws \Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface
      * @throws \Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface
      */
-    public function eth_syncing(string $host = ''): ?array
+    public function eth_syncing(string $host = '')
     {
         $requestData = [
             "jsonrpc" => "2.0",
