@@ -96,7 +96,7 @@ class NodeInfoService
         /******** Check our node height ********/
         $data = $this->ethClient->eth_syncing('http://' . $node->getPrivateIp() . ':8545');
 
-        $isSynced = $data === null;
+        $isSynced = !$data;
         $blockChainHeight = isset($data['highestBlock']) ? (int) hexdec($data['highestBlock']) : null;
         $height = isset($data['currentBlock']) ? (int) hexdec($data['currentBlock']) : null;
 
