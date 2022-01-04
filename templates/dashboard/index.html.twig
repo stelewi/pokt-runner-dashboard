@@ -52,10 +52,10 @@
                                 <div class="text-sm text-gray-900">{{ row.node.hostname  }}</div>
                                 {% if row.node.rpcPort is not null %}
                                     <div class="text-sm text-gray-400">Primary RPC Port: {{ row.node.rpcPort }}</div>
-                                {% else %}
+                                {% endif %}
                                 {% if row.node.secondaryRpcPort is not null %}
                                     <div class="text-sm text-gray-400">Secondary RPC Port: {{ row.node.secondaryRpcPort }}</div>
-                                {% else %}
+                                {% endif %}
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap">
                                 <div class="text-sm text-gray-900">
