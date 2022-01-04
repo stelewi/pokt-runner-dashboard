@@ -51,6 +51,7 @@ class LoadTestEthCommand extends Command
             $io->info("requests made $requestsMade");
 
 //            $requestData = '{"relay_network_id":"0021","payload":{"data":"{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0xe7a24E61b2ec77d3663ec785d1110688d2A32ecc\", \"latest\"],\"id\":1}","method":"POST","path":"","headers":{}}}';
+                           //'{"relay-network-id":"0021","payload":"{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0xda9dfa130df4de4673b89022ee50ff26f6ea73cf\",5067433],\"id\":1}","method":"POST","path":"","headers":{}}'
             $requestData = '{"relay_network_id":"0021","payload":{"data":"{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}","method":"POST","path":"","headers":{}}}';
 
 

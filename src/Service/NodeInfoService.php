@@ -120,7 +120,7 @@ class NodeInfoService
         $height = null;
         $blockChainHeight = null;
         $jailed = null;
-        $tokens = null;:win32_query_service_status()
+        $tokens = null;
         $isStaked = null;
         $validatorAddress = null;
         $votingPower = null;
