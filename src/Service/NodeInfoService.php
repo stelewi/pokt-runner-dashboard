@@ -147,7 +147,7 @@ class NodeInfoService
         if($validatorAddress !== null)
         {
             $data = $this->pocketClient->queryValidatorNode(
-                'http://' . $node->getPrivateIp() . ':{$poktRpcPort}/',
+                'http://' . $node->getPrivateIp() . ":{$poktRpcPort}/",
                 $validatorAddress
             );
 
