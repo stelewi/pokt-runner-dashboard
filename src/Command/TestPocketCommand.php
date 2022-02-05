@@ -4,6 +4,7 @@ namespace App\Command;
 
 use App\Service\NodeInfoService;
 use App\Service\PocketClient;
+use App\Service\PoktValidatorService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -22,13 +23,20 @@ class TestPocketCommand extends Command
     private $client;
 
     /**
+     * @var PoktValidatorService
+     */
+    private $poktValidatorService;
+
+    /**
      * TestPocketCommand constructor.
      * @param PocketClient $client
+     * @param PoktValidatorService $poktValidatorService
      */
-    public function __construct(PocketClient $client)
+    public function __construct(PocketClient $client, PoktValidatorService $poktValidatorService)
     {
         parent::__construct();
         $this->client = $client;
+        $this->poktValidatorService = $poktValidatorService;
     }
 
 
@@ -44,9 +52,22 @@ class TestPocketCommand extends Command
     {
         $io = new SymfonyStyle($input, $output);
 
-        $data = $this->client->nodeHeight();
+        $validator = $this->poktValidatorService
+            ->getPoktValidator('CA52AFB99444C02878E1E1D5AB7D557E67D67D81');
 
-        dump($data);
+        $this->poktValidatorService->refreshRewards($validator);
+
+
+
+//        $data = $this->client->nodeHeight();
+//
+//        dump($data);
+//
+//        $data = $this->client->queryAccountTxs(
+//            'CA52AFB99444C02878E1E1D5AB7D557E67D67D81',
+//        );
+//
+//        file_put_contents(__DIR__ . '/../../stuff.json', json_encode($data, JSON_PRETTY_PRINT));
 
 
         return Command::SUCCESS;

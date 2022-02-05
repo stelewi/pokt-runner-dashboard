@@ -58,6 +58,12 @@ class Node
      */
     private $secondaryRpcPort;
 
+    /**
+     * @var PoktValidator|null
+     * @ORM\OneToOne(targetEntity=PoktValidator::class)
+     */
+    private $validator = null;
+
     public function __construct()
     {
         $this->infos = new ArrayCollection();
@@ -168,5 +174,37 @@ class Node
         $this->secondaryRpcPort = $secondaryRpcPort;
 
         return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getValidatorAddress()
+    {
+        return $this->validatorAddress;
+    }
+
+    /**
+     * @param mixed $validatorAddress
+     */
+    public function setValidatorAddress($validatorAddress): void
+    {
+        $this->validatorAddress = $validatorAddress;
+    }
+
+    /**
+     * @return PoktValidator
+     */
+    public function getValidator(): ?PoktValidator
+    {
+        return $this->validator;
+    }
+
+    /**
+     * @param PoktValidator $validator
+     */
+    public function setValidator(?PoktValidator $validator): void
+    {
+        $this->validator = $validator;
     }
 }

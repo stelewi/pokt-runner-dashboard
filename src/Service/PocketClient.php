@@ -89,12 +89,44 @@ class PocketClient
         }
     }
 
+    /**
+     * @param string $host
+     * @param string $address
+     * @return array|null
+     * @throws \Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface
+     * @throws \Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface
+     * @throws \Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface
+     * @throws \Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface
+     * @throws \Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface
+     */
+    public function queryAccountTxs(
+        string $address,
+        string $host = 'https://mainnet.gateway.pokt.network/v1/lb/61fe9c83151e63003b2592cb'
+    ): ?array {
+        $requestData = [
+            'address' => $address,
+            'height' => 0,
+            'page' => 1,
+            'per_page' => 1000,
+            'sort' => 'desc'
+        ];
 
-    public function nodeHeight($host = 'https://mainnet.gateway.pokt.network/v1/lb/60a2ac11b1747c6552385c61/v1')
+        $response = $this->httpClient->request('POST', $host . '/v1/query/accounttxs', [
+            'headers' => [
+                'Content-Type' => 'application/json',
+            ],
+            'max_duration' => 5,
+            'body' => json_encode($requestData)
+        ]);
+
+        return $response->toArray(false);
+    }
+
+    public function nodeHeight($host = 'https://mainnet.gateway.pokt.network/v1/lb/61fe9c83151e63003b2592cb')
     {
         try {
 
-            $response = $this->httpClient->request('POST', $host . '/query/height', [
+            $response = $this->httpClient->request('POST', $host . '/v1/query/height', [
                 'headers' => [
                     'Content-Type' => 'application/json',
                 ],

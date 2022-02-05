@@ -1,0 +1,2559 @@
+{
+    "total_count": 23,
+    "txs": [
+        {
+            "hash": "D40A4C54857CBEA8E4D194D2639E6AAF68C2226B3FC34309BBCF54E8A890D236",
+            "height": 47333,
+            "index": 863,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -6000170315221058000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pos\/MsgStake",
+                    "value": {
+                        "chains": [
+                            "0021",
+                            "0040"
+                        ],
+                        "public_key": {
+                            "type": "crypto\/ed25519_public_key",
+                            "value": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085"
+                        },
+                        "service_url": "https:\/\/node1.angryinfra.com:8181",
+                        "value": "15100000000"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "1df02b4a65fb4dae1b0dafc8f190cc29208ae921e35ffc872e5c32ff824dd59edf71fa14c64e9ff7a33249cc27e998d73110e788ec9214f2f827cc74b0125902"
+                }
+            },
+            "tx": "+wEKeAoWL3gubm9kZXMuTXNnUHJvdG9TdGFrZRJeCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRIEMDAyMRIEMDA0MBoLMTUxMDAwMDAwMDAiIWh0dHBzOi8vbm9kZTEuYW5ncnlpbmZyYS5jb206ODE4MRIOCgV1cG9rdBIFMTAwMDAaZAogUWJsdWb+9iHvTc+dL7fjlYn0\/ijWWedhHIWWNnhPUIUSQB3wK0pl+02uGw2vyPGQzCkgiukh41\/8hy5cMv+CTdWe33H6FMZOn\/ejMknMJ+mY1zEQ54jskhTy+CfMdLASWQIo1oKfy7ecx92sAQ==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "stake_validator",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "52C878F9D43DDF79E5B62685B43A53980A6ADB107392753EC2DD5127C33BC6D1",
+            "height": 47928,
+            "index": 420,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -4114266517368748500,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "32bcbb3e07d3c660ba5835e12b734718166194584a4e45919aca0ec08a085642",
+                            "chain": "0021",
+                            "session_height": "47921"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "vqcRWGVSjn72eah+G2W3EHv8RrP51Tj1sXF9oLKdj9U=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18445387582351507917"
+                            }
+                        },
+                        "total_proofs": "8416"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "bf8bc15f3f5d147812f789ab25e9863f048ca8b93aeb8633ed5478bd23aa3a72330569a6cacad7714401b177778cc27baddd7698cbcee501f1028a01812f3201"
+                }
+            },
+            "tx": "uQIKtQEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmgEKTApAMzJiY2JiM2UwN2QzYzY2MGJhNTgzNWUxMmI3MzQ3MTgxNjYxOTQ1ODRhNGU0NTkxOWFjYTBlYzA4YTA4NTY0MhIEMDAyMRix9gISLwogvqcRWGVSjn72eah+G2W3EHv8RrP51Tj1sXF9oLKdj9USCxDNg9rz88jL\/f8BGOBBIhTKUq+5lETAKHjh4dWrfVV+Z9Z9gSgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAv4vBXz9dFHgS94mrJemGPwSMqLk664Yz7VR4vSOqOnIzBWmmysrXcUQBsXd3jMJ7rd12mMvO5QHxAooBgS8yASj7i8\/H6YzM88YB",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "E47CE2FCA6F14AEC84B5EC90D451A4FF659D2E84F00755E9CADF654E78D640A1",
+            "height": 47936,
+            "index": 135,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 115094991781925900,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "32bcbb3e07d3c660ba5835e12b734718166194584a4e45919aca0ec08a085642",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "aaa087c04adc6bdb27a3b5b6d793dd362b798a6b79da5bdc9cb07369bf9e065f5347179002b2dafdbff9cf468e39b034a1d321fdcf7e1393906a2af2db98d80e",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0021",
+                                "entropy": "10611494456928260",
+                                "request_hash": "a04dd990e41ac10f26325ea98b88376ac57c5b5e307a2e82fceeb6c967bc61d8",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "47921",
+                                "signature": "742725ba45ee7a0265b7f857354c6cfdff2009606ed057fea48a0b04ea4537a71838e518fa5adecc4284b5564f7815d26fc6a162f4c8bb85bb6621671ee12b00"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "v4c00w8so2h8B6ikQiu43K9x7TqVomXnVktHvJE9Zv0=",
+                                    "range": {
+                                        "lower": "7533376249758753069",
+                                        "upper": "7539918647627909055"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ffcj4IgGTigKW8Eajq54jjZxVPf5etHOTUhrsyT13nM=",
+                                    "range": {
+                                        "lower": "7542748738331302868",
+                                        "upper": "7548448096928806539"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "9PcxJ4Hc7pOQFrppFfODnWB7ejQ42Khi4NXvYfiMPkU=",
+                                    "range": {
+                                        "lower": "7508834624245096998",
+                                        "upper": "7533376249758753069"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "KLrZQs68uYs6okUeueGmMMU0bsgwawIa8XtIL\/HOwTk=",
+                                    "range": {
+                                        "lower": "7496737679951480942",
+                                        "upper": "7508834624245096998"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "w3Dy3af\/kLOKRQbmWBbgeA8nSPptBw2nwibWorKj8z8=",
+                                    "range": {
+                                        "lower": "7457718233260633980",
+                                        "upper": "7496737679951480942"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "hIfKZlHzHaOy8iMZGreL0XYGgO1wEUH8Z5KPD6okEUQ=",
+                                    "range": {
+                                        "lower": "7370156909294267873",
+                                        "upper": "7457718233260633980"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "yEV2re9hGTbwXQJHHLcbxiYgbDf0eOjGdEvNik4rxy4=",
+                                    "range": {
+                                        "lower": "7548448096928806539",
+                                        "upper": "7687990607192145323"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "E0DyG\/k7VWKaXB95igHA3uxOXNUU2C1TDd5sMJyry9c=",
+                                    "range": {
+                                        "lower": "7687990607192145323",
+                                        "upper": "7981116214897094620"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "t2WZltv1u5g4cufLKEg6cKTEdkbLNRUzMwdxaWLn6pg=",
+                                    "range": {
+                                        "lower": "6792855932590637111",
+                                        "upper": "7370156909294267873"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "D+N9K16PSxNIs+U9e\/ig0EGgrr00XqObRTeWJCJjF00=",
+                                    "range": {
+                                        "lower": "7981116214897094620",
+                                        "upper": "9060407080177911925"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Vpx2dIfLAaYRSg82oU593y1SBaO3mLdyf3FxbBIUYsE=",
+                                    "range": {
+                                        "lower": "4629747181021417434",
+                                        "upper": "6792855932590637111"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "tVVODJse0edCxcHz1TeyjnESwj6+k+7jFOlcrFq0rVY=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "4629747181021417434"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "soV+char6LtYb7UnWwf7zrm9h0ZBQJk2jf5CLiX0Pc8=",
+                                    "range": {
+                                        "lower": "9060407080177911925",
+                                        "upper": "17979973743383318572"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Gz+XssNmVyI4L1dIZk9aqF5uZ8I\/wWral9Nc5EhppV8=",
+                                    "range": {
+                                        "lower": "17979973743383318572",
+                                        "upper": "18445387582351507917"
+                                    }
+                                }
+                            ],
+                            "index": "3389",
+                            "target_range": {
+                                "merkleHash": "1FtDqgM6rWhCbBWNfTpHTaxMTeveo72bdhIpkQd3Fgo=",
+                                "range": {
+                                    "lower": "7539918647627909055",
+                                    "upper": "7542748738331302868"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "ba2ab91fbd4393c792b518c2114f306044a38938140ad9967e7df615804aeaeeb110c5c8cacb740e69117431bf52dbb0e67c5498c1f60182961fd78913c44a02"
+                }
+            },
+            "tx": "oQwKngsKAS8SmAsK4gYIvRoSOAogv4c00w8so2h8B6ikQiu43K9x7TqVomXnVktHvJE9Zv0SFAitwvDxkbn7xWgQv4\/Smf2By9FoEjgKIH33I+CIBk4oClvBGo6ueI42cVT3+XrRzk1Ia7Mk9d5zEhQI1LeN0rrAztZoEIvtqPfPsd7gaBI4CiD09zEngdzuk5AWumkV84OdYHt6NDjYqGLg1e9h+Iw+RRIUCKbEobrqqa+aaBCtwvDxkbn7xWgSOAogKLrZQs68uYs6okUeueGmMMU0bsgwawIa8XtIL\/HOwTkSFAjukK2etebwhGgQpsShuuqpr5poEjgKIMNw8t2n\/5CzikUG5lgW4HgPJ0j6bQcNp8Im1qKyo\/M\/EhQI\/N7Qg4fnyL9nEO6QrZ615vCEaBI4CiCEh8pmUfMdo7LyIxkat4vRdgaA7XARQfxnko8PqiQRRBIUCOHbgKuQ1YOkZhD83tCDh+fIv2cSOAogyEV2re9hGTbwXQJHHLcbxiYgbDf0eOjGdEvNik4rxy4SFAiL7aj3z7He4GgQq\/vo0ZfXzthqEjgKIBNA8hv5O1VimlwfeYoBwN7sTlzVFNgtUw3ebDCcq8vXEhQIq\/vo0ZfXzthqENzftKCW3afhbhI4CiC3ZZmW2\/W7mDhy58soSDpwpMR2Rss1FTMzB3FpYufqmBIUCLeA4cOwz8SiXhDh24CrkNWDpGYSOAogD+N9K16PSxNIs+U9e\/ig0EGgrr00XqObRTeWJCJjF00SFAjc37Sglt2n4W4Q9ZDB88OHwt59EjgKIFacdnSHywGmEUoPNqFOfd8tUgWjt5i3cn9xcWwSFGLBEhQI2p+X5YHRiqBAELeA4cOwz8SiXhIuCiC1VU4Mmx7R50LFwfPVN7KOcRLCPr6T7uMU6VysWrStVhIKENqfl+WB0YqgQBI5CiCyhX5yFqvou1hvtSdbB\/vOub2HRkFAmTaN\/kIuJfQ9zxIVCPWQwfPDh8LefRCsoNrpuNvswvkBEjoKIBs\/l7LDZlciOC9XSGZPWqhebmfCP8Fq2pfTXORIaaVfEhYIrKDa6bjb7ML5ARDNg9rz88jL\/f8BGjgKINRbQ6oDOq1oQmwVjX06R02sTE3r3qO9m3YSKZEHdxYKEhQIv4\/Smf2By9FoENS3jdK6wM7WaBKuBAqrBApAYTA0ZGQ5OTBlNDFhYzEwZjI2MzI1ZWE5OGI4ODM3NmFjNTdjNWI1ZTMwN2EyZTgyZmNlZWI2Yzk2N2JjNjFkOBCE0JCtkePsEhix9gIiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwMjEyjgIKBTAuMC4xEkAzMmJjYmIzZTA3ZDNjNjYwYmE1ODM1ZTEyYjczNDcxODE2NjE5NDU4NGE0ZTQ1OTE5YWNhMGVjMDhhMDg1NjQyGkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABYWFhMDg3YzA0YWRjNmJkYjI3YTNiNWI2ZDc5M2RkMzYyYjc5OGE2Yjc5ZGE1YmRjOWNiMDczNjliZjllMDY1ZjUzNDcxNzkwMDJiMmRhZmRiZmY5Y2Y0NjhlMzliMDM0YTFkMzIxZmRjZjdlMTM5MzkwNmEyYWYyZGI5OGQ4MGU6gAE3NDI3MjViYTQ1ZWU3YTAyNjViN2Y4NTczNTRjNmNmZGZmMjAwOTYwNmVkMDU3ZmVhNDhhMGIwNGVhNDUzN2E3MTgzOGU1MThmYTVhZGVjYzQyODRiNTU2NGY3ODE1ZDI2ZmM2YTE2MmY0YzhiYjg1YmI2NjIxNjcxZWUxMmIwMBgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAuiq5H71Dk8eStRjCEU8wYESjiTgUCtmWfn32FYBK6u6xEMXIyst0DmkRdDG\/Utuw5nxUmMH2AYKWH9eJE8RKAiiUqNqkkMm5zAE=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "711D08ABB6D09962BDECECED45A869021101B671DF2ED9B2643C7B5EC2190279",
+            "height": 48088,
+            "index": 318,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -2757208141804144600,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "063e5e6e1c938296abeff584c3dd14ebea7563580bf188466e34cf57b74f6359",
+                            "chain": "0021",
+                            "session_height": "48081"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "ZMgI+hwtBxvErSgxNSFRpz0AGT\/Sn2i\/vH4h5wou2Mc=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "17731801181182501952"
+                            }
+                        },
+                        "total_proofs": "31"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "35e694b9b171db4bbf69c1e2e20fb63338e8930435bed3caf83facae11e77d34473030205392cc75e37e42ac9a5a5f4e7c71e7ea99471793c91af9b84fbd0d0f"
+                }
+            },
+            "tx": "uAIKtAEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmQEKTApAMDYzZTVlNmUxYzkzODI5NmFiZWZmNTg0YzNkZDE0ZWJlYTc1NjM1ODBiZjE4ODQ2NmUzNGNmNTdiNzRmNjM1ORIEMDAyMRjR9wISLwogZMgI+hwtBxvErSgxNSFRpz0AGT\/Sn2i\/vH4h5wou2McSCxDAyPDBoueAivYBGB8iFMpSr7mURMAoeOHh1at9VX5n1n2BKAESDgoFdXBva3QSBTEwMDAwGmQKIFFibHVm\/vYh703PnS+345WJ9P4o1lnnYRyFljZ4T1CFEkA15pS5sXHbS79pweLiD7YzOOiTBDW+08r4P6yuEed9NEcwMCBTksx1435CrJpaX058cefqmUcXk8ka+bhPvQ0PKJXwy7\/auZve2QE=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "310A3F78070C8D5E62B95F8D443CCC4290E94EF392459E3290D8C4C6E15CFF45",
+            "height": 48096,
+            "index": 376,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -4821943003293850000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "063e5e6e1c938296abeff584c3dd14ebea7563580bf188466e34cf57b74f6359",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "452fa84a2b04256e8bc60fc624645d3e743ffbcf05c626a20f0929d273d88fd475c60a7f495997ae8b7eaa3835f80813e246d7814255bae09676e853c6474b07",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0021",
+                                "entropy": "29198425554263196",
+                                "request_hash": "5fe846716959e53f9f19149fde6693c8ba7ccb1a83427f33c353b066610db80e",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "48081",
+                                "signature": "85e0584ec9c190641a5e58a0206defe115c6268181bcb56d3ffcb544cc916af53ddbc452fe5d7eac255a003d1f962295dd2d5d050e3ebc4a4d56457538d96c0b"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "UzpnKbZtzxbFOonvOXMxmUmdgzIx2ZNNTpoEGL7O72c=",
+                                    "range": {
+                                        "lower": "1304011216556720073",
+                                        "upper": "1643653018159626835"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "eBoAHtGRG\/kLb9lUyV0jZb7eUu1UaCV0o14uaqMpdsM=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "918590094005508765"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "5uvewph66dfy50RbPuEu\/dmp1zu9x6VlTZHtnjQeezQ=",
+                                    "range": {
+                                        "lower": "1643653018159626835",
+                                        "upper": "3619691143032760735"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ate5i6HE9B6FV+\/2AfEL1mYi3L14++McEjMcPrAtFjg=",
+                                    "range": {
+                                        "lower": "3619691143032760735",
+                                        "upper": "7288843620380276973"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Us7fn\/gAdbzyVBYGmFvs2mGrpp0d6dD+fUveyK4Xw7o=",
+                                    "range": {
+                                        "lower": "7288843620380276973",
+                                        "upper": "17731801181182501952"
+                                    }
+                                }
+                            ],
+                            "index": "2",
+                            "target_range": {
+                                "merkleHash": "yf\/84UrHGBLqiP72xzX1WRpS37UuJkODM0SSD5s0PCc=",
+                                "range": {
+                                    "lower": "918590094005508765",
+                                    "upper": "1304011216556720073"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "4bc5313499100c67e3692917fac57fa28a68dc7a7435b9d479aee347913ecd4c02de2fbc066c4fa36e3b79b63128d1644aa17cbaed4551bb1c4a75485db5b802"
+                }
+            },
+            "tx": "lQgKkQcKAS8SiwcK1QIIAhI4CiBTOmcptm3PFsU6ie85czGZSZ2DMjHZk01OmgQYvs7vZxIUCMn\/84+u6bGMEhDT9JzL4rbb5xYSLgogeBoAHtGRG\/kLb9lUyV0jZb7eUu1UaCV0o14uaqMpdsMSChCdtZC7rZrf3wwSOAog5uvewph66dfy50RbPuEu\/dmp1zu9x6VlTZHtnjQeezQSFAjT9JzL4rbb5xYQn9PhyKq97p0yEjgKIGrXuYuhxPQehVfv9gHxC9ZmIty9ePvjHBIzHD6wLRY4EhQIn9PhyKq97p0yEO3xjYH6lMuTZRI5CiBSzt+f+AB1vPJUFgaYW+zaYaumnR3p0P59S97IrhfDuhIVCO3xjYH6lMuTZRDAyPDBoueAivYBGjgKIMn\/\/OFKxxgS6oj+9sc19VkaUt+1LiZDgzNEkg+bNDwnEhQInbWQu62a398MEMn\/84+u6bGMEhKuBAqrBApANWZlODQ2NzE2OTU5ZTUzZjlmMTkxNDlmZGU2NjkzYzhiYTdjY2IxYTgzNDI3ZjMzYzM1M2IwNjY2MTBkYjgwZRCcuaa5g\/ruMxjR9wIiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwMjEyjgIKBTAuMC4xEkAwNjNlNWU2ZTFjOTM4Mjk2YWJlZmY1ODRjM2RkMTRlYmVhNzU2MzU4MGJmMTg4NDY2ZTM0Y2Y1N2I3NGY2MzU5GkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABNDUyZmE4NGEyYjA0MjU2ZThiYzYwZmM2MjQ2NDVkM2U3NDNmZmJjZjA1YzYyNmEyMGYwOTI5ZDI3M2Q4OGZkNDc1YzYwYTdmNDk1OTk3YWU4YjdlYWEzODM1ZjgwODEzZTI0NmQ3ODE0MjU1YmFlMDk2NzZlODUzYzY0NzRiMDc6gAE4NWUwNTg0ZWM5YzE5MDY0MWE1ZTU4YTAyMDZkZWZlMTE1YzYyNjgxODFiY2I1NmQzZmZjYjU0NGNjOTE2YWY1M2RkYmM0NTJmZTVkN2VhYzI1NWEwMDNkMWY5NjIyOTVkZDJkNWQwNTBlM2ViYzRhNGQ1NjQ1NzUzOGQ5NmMwYhgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAS8UxNJkQDGfjaSkX+sV\/oopo3Hp0NbnUea7jR5E+zUwC3i+8BmxPo247ebYxKNFkSqF8uu1FUbscSnVIXbW4Aijs0vWLrozBir0B",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "E8D119C5203BCD1E448CC524E2A18384E147DAA73105EAD0B768FA5A05E5C5BD",
+            "height": 48140,
+            "index": 48,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -2308281331560071700,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "85417a48dd7bcf25861027dd2220a159468d47c1f420bab6e9392a50436ad2cb",
+                            "chain": "0040",
+                            "session_height": "48133"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "dnbsSCG0JU1zlTR5\/cWgcVu2W4OH6t5FKRr4LnyCu18=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18432489623279261902"
+                            }
+                        },
+                        "total_proofs": "1228"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "a2271fc6507ac1118fcc95dd8d2f45978467a6bec27ae2e8e1910f31d1deaedc5eae8b70a1ca29e5203a4b39615d649ff389d0d985584157cd9b5ca68be93008"
+                }
+            },
+            "tx": "uQIKtQEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmgEKTApAODU0MTdhNDhkZDdiY2YyNTg2MTAyN2RkMjIyMGExNTk0NjhkNDdjMWY0MjBiYWI2ZTkzOTJhNTA0MzZhZDJjYhIEMDA0MBiF+AISLwogdnbsSCG0JU1zlTR5\/cWgcVu2W4OH6t5FKRr4LnyCu18SCxDOsYmN8vTW5v8BGMwJIhTKUq+5lETAKHjh4dWrfVV+Z9Z9gSgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAoicfxlB6wRGPzJXdjS9Fl4Rnpr7CeuLo4ZEPMdHertxerotwocop5SA6SzlhXWSf84nQ2YVYQVfNm1ymi+kwCCjd\/Mi1vcvV+98B",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "A60E8315C92C5AA86A2CC2FF42ACBA2A6A8F6D7CD7DA32B04E3F04E33928BD3A",
+            "height": 48148,
+            "index": 439,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -6308710765783297000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "85417a48dd7bcf25861027dd2220a159468d47c1f420bab6e9392a50436ad2cb",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "1a9945095fd7060195ec7fcbfe9108c5960c3a36cbfdeb43b93c9a860b62e3af35c5f35a9e3d91f9ec261636e0fdbc03a3454e23ab8ce636434b1d0ad06fee04",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "6207935956907185",
+                                "request_hash": "3a3159433efa87796990d09b17c40c722bac57b55d0eda67deead96a8685f1ac",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "48133",
+                                "signature": "3c9db5f8eeb4ef400342d3adaace471b6abdf7a85ec40041765ee26abc9c1d4f0b5dd75b47053558c3c81fe0f4604f92753441638aab9d0b57ff367efb9c070c"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "2Mwo30fezZGgwwCMKW45p5YmfBH\/HDOaGTAKt5pCIhY=",
+                                    "range": {
+                                        "lower": "10484834157797201663",
+                                        "upper": "10506297905993272536"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ArnaFRJn9ODijaUeEOGv8AUPmC06gvyD93MFVS1hG9U=",
+                                    "range": {
+                                        "lower": "10520760360124811312",
+                                        "upper": "10538806569487267873"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "r4UQ+tDTfWS4hWqVTxfMi9Rk96UL8YmwkJkSfOxmNVU=",
+                                    "range": {
+                                        "lower": "10538806569487267873",
+                                        "upper": "10613922684406553941"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Cw2kbHXWb8XM+uJUGYMfQU788e1pNrgM+H\/NS\/xRhOo=",
+                                    "range": {
+                                        "lower": "10613922684406553941",
+                                        "upper": "10673981746746259424"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "uFskKLlZ3VS8vHY5eP+xGwiAgMFvVW7wdFai80Lt+cw=",
+                                    "range": {
+                                        "lower": "10140587522609963092",
+                                        "upper": "10484834157797201663"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "a2ggE4\/5LYZMLiUJCwcfi+kZy8hKZ0Vis1wLpKMb5Xk=",
+                                    "range": {
+                                        "lower": "10673981746746259424",
+                                        "upper": "11092692946371516023"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "K3ghx\/j\/Wy9VyXev8DGxUHZ8quUwMbVCYJ7bovvnDBA=",
+                                    "range": {
+                                        "lower": "11092692946371516023",
+                                        "upper": "11970283681764464757"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "V0E6s7J8F7bd6zfqVJgz6bIdt5X0d41rAhvVWvPjpx4=",
+                                    "range": {
+                                        "lower": "8358229934833044742",
+                                        "upper": "10140587522609963092"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "J9libYi\/coUKQy41nk8wDRnwnZSCYokUGK362tfB3QY=",
+                                    "range": {
+                                        "lower": "11970283681764464757",
+                                        "upper": "15305365158777400526"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "2gl5mP\/LTyTu+bD6XsHCQZzp4urE0mw2ins641foMhw=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "8358229934833044742"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "1WP73gzMNyQJoADa7GZysdr0\/akrXFiRYFpaO\/GxBO0=",
+                                    "range": {
+                                        "lower": "15305365158777400526",
+                                        "upper": "18432489623279261902"
+                                    }
+                                }
+                            ],
+                            "index": "657",
+                            "target_range": {
+                                "merkleHash": "MAhAYM4\/AZIo44hrH4h4ilGI4QsT5KPO5WXRtzyeGcM=",
+                                "range": {
+                                    "lower": "10506297905993272536",
+                                    "upper": "10520760360124811312"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "b85e960c5fb103453ad794d78fb4e33a31457a920f87d585152aa70a2ac9a8caed6e12a60a07b935a542c3ef73f964045b8d97462f885713c17229373e408a0a"
+                }
+            },
+            "tx": "hgsKggoKAS8S\/AkKxgUIkQUSOgog2Mwo30fezZGgwwCMKW45p5YmfBH\/HDOaGTAKt5pCIhYSFgj\/rYmD2aPnwJEBENiZo\/n9yPfmkQESOgogArnaFRJn9ODijaUeEOGv8AUPmC06gvyD93MFVS1hG9USFgiwkICC5vnPgJIBEKHw3dbOl9egkgESOgogr4UQ+tDTfWS4hWqVTxfMi9Rk96UL8YmwkJkSfOxmNVUSFgih8N3WzpfXoJIBENW6jeykzo6mkwESOgogCw2kbHXWb8XM+uJUGYMfQU788e1pNrgM+H\/NS\/xRhOoSFgjVuo3spM6OppMBEODvwY6Hu+aQlAESOgoguFskKLlZ3VS8vHY5eP+xGwiAgMFvVW7wdFai80Lt+cwSFgjUwLPX\/tOm3YwBEP+tiYPZo+fAkQESOgoga2ggE4\/5LYZMLiUJCwcfi+kZy8hKZ0Vis1wLpKMb5XkSFgjg78GOh7vmkJQBEPes0vforsr4mQESOgogK3ghx\/j\/Wy9VyXev8DGxUHZ8quUwMbVCYJ7bovvnDBASFgj3rNL36K7K+JkBEPWw58Hlsr+PpgESOQogV0E6s7J8F7bd6zfqVJgz6bIdt5X0d41rAhvVWvPjpx4SFQiGmorG+LqZ\/3MQ1MCz1\/7Tpt2MARI6CiAn2WJtiL9yhQpDLjWeTzANGfCdlIJiiRQYrfra18HdBhIWCPWw58Hlsr+PpgEQztnEtNSQ5bPUARIuCiDaCXmY\/8tPJO75sPpewcJBnOni6sTSbDaKezrjV+gyHBIKEIaaisb4upn\/cxI6CiDVY\/veDMw3JAmgANrsZnKx2vT9qStcWJFgWlo78bEE7RIWCM7ZxLTUkOWz1AEQzrGJjfL01ub\/ARo6CiAwCEBgzj8BkijjiGsfiHiKUYjhCxPko87lZdG3PJ4ZwxIWCNiZo\/n9yPfmkQEQsJCAgub5z4CSARKuBAqrBApAM2EzMTU5NDMzZWZhODc3OTY5OTBkMDliMTdjNDBjNzIyYmFjNTdiNTVkMGVkYTY3ZGVlYWQ5NmE4Njg1ZjFhYxCx6f\/L28KDCxiF+AIiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwNDAyjgIKBTAuMC4xEkA4NTQxN2E0OGRkN2JjZjI1ODYxMDI3ZGQyMjIwYTE1OTQ2OGQ0N2MxZjQyMGJhYjZlOTM5MmE1MDQzNmFkMmNiGkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABMWE5OTQ1MDk1ZmQ3MDYwMTk1ZWM3ZmNiZmU5MTA4YzU5NjBjM2EzNmNiZmRlYjQzYjkzYzlhODYwYjYyZTNhZjM1YzVmMzVhOWUzZDkxZjllYzI2MTYzNmUwZmRiYzAzYTM0NTRlMjNhYjhjZTYzNjQzNGIxZDBhZDA2ZmVlMDQ6gAEzYzlkYjVmOGVlYjRlZjQwMDM0MmQzYWRhYWNlNDcxYjZhYmRmN2E4NWVjNDAwNDE3NjVlZTI2YWJjOWMxZDRmMGI1ZGQ3NWI0NzA1MzU1OGMzYzgxZmUwZjQ2MDRmOTI3NTM0NDE2MzhhYWI5ZDBiNTdmZjM2N2VmYjljMDcwYxgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAuF6WDF+xA0U615TXj7TjOjFFepIPh9WFFSqnCirJqMrtbhKmCge5NaVCw+9z+WQEW42XRi+IVxPBcik3PkCKCijXpbe2vJ+9uagB",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "F621675026C15EB042778D4F818921D28E1289F0A434E70B80621D076CD21DE7",
+            "height": 48536,
+            "index": 569,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 1802950719443310000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "93300d5adf07c40fc2b1821a8ad6ade97f8a2ccf1cbde9b31a23824973be7c75",
+                            "chain": "0040",
+                            "session_height": "48529"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "\/f2BOIm\/lfW4UIMRmYItiz+I2wN4Yod3Xco4gxIrrKM=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18430781273092633219"
+                            }
+                        },
+                        "total_proofs": "748"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "64c2b237da99c9cfbb40c819110ea6beb3e8563e8826e6208074966c281d564d868acec15dd482cd2d944192a22b7bf6285f21a8ff7722cc44a7436df9683f09"
+                }
+            },
+            "tx": "uAIKtQEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmgEKTApAOTMzMDBkNWFkZjA3YzQwZmMyYjE4MjFhOGFkNmFkZTk3ZjhhMmNjZjFjYmRlOWIzMWEyMzgyNDk3M2JlN2M3NRIEMDA0MBiR+wISLwog\/f2BOIm\/lfW4UIMRmYItiz+I2wN4Yod3Xco4gxIrrKMSCxCD5e7crb3S4\/8BGOwFIhTKUq+5lETAKHjh4dWrfVV+Z9Z9gSgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAZMKyN9qZyc+7QMgZEQ6mvrPoVj6IJuYggHSWbCgdVk2Gis7BXdSCzS2UQZKiK3v2KF8hqP93IsxEp0Nt+Wg\/CSidq9Dfh8TXghk=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "BADE338D7BB8D9B720CBC1D33B6B2CCC91938DC1E5D85A545CA6DB63ED782728",
+            "height": 48544,
+            "index": 341,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 5268960667480944000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "93300d5adf07c40fc2b1821a8ad6ade97f8a2ccf1cbde9b31a23824973be7c75",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "759a19cf42b8807f32e5bb48cedb8b665edb865c4c7d1478a2e6b3a9d6d036015e0cc68b8de9da65fa28903d8e4d5e700b6beae121a56839da85d36888ad8a0d",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "55630431301565440",
+                                "request_hash": "83e70d48fa0729d36471a91a96b3f19122493f04e1593605cb3f9a28510cee63",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "48529",
+                                "signature": "55dedbea33a2dd5934ea4d296c84c5bc31431a5757dab22cde8914a05a2da87eca93ea60398aceadc4ab68d67035607c56179b835852b30c398d63f153375f09"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "iI6BJFsHAbdHIT2eawh1lcTBX4mrKfvv8v+tHwvq\/9A=",
+                                    "range": {
+                                        "lower": "13153104277703705548",
+                                        "upper": "13186829271953411720"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "XLEq9zson21upaDh8Bkkyw9qUnE+Id7YM3JBerKgN2U=",
+                                    "range": {
+                                        "lower": "13190668852713583387",
+                                        "upper": "13219659731775339618"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "fKN7I21xpzFO3zhr4vqFv74d7orAt6+3mhs3X7EHjgI=",
+                                    "range": {
+                                        "lower": "13118525071401262486",
+                                        "upper": "13153104277703705548"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Mr5AQavh+lwKg5GSwcuJSesKcb26gOwehfRt\/RMeX60=",
+                                    "range": {
+                                        "lower": "12944731121365043553",
+                                        "upper": "13118525071401262486"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ELYrLZMM9BvMzEw7zGxPBbgTzJobOW\/3I8dlk04mVjs=",
+                                    "range": {
+                                        "lower": "13219659731775339618",
+                                        "upper": "13535698169943645763"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "lLiORJ+hqOiCe84bGlR0R40jurzE5qp27Vomvg9bXSs=",
+                                    "range": {
+                                        "lower": "13535698169943645763",
+                                        "upper": "14136556228577180918"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "gXaroC4U5vc1mEgH18Rad1t\/zWVliUQPT8iuEzRAtyA=",
+                                    "range": {
+                                        "lower": "14136556228577180918",
+                                        "upper": "15661249782806602498"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "0JDtmg5THFTooumZtIQWjZ9\/jhuzZIJcNvD13eWsL9w=",
+                                    "range": {
+                                        "lower": "15661249782806602498",
+                                        "upper": "18430781273092632963"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "BbllR5yiY9pY39quLLpZNhbjL9QT91iymzoogG8yDcI=",
+                                    "range": {
+                                        "lower": "18430781273092632963",
+                                        "upper": "18430781273092633219"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "r9D\/WmsXHa+hn5zG4OdzrGV3\/vT0J2ENw6Sg6D8uFeQ=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "12944731121365043553"
+                                    }
+                                }
+                            ],
+                            "index": "525",
+                            "target_range": {
+                                "merkleHash": "G3PNM2+rDrdfGhzDByxVVDCcGM0aJkmVvhVbX28SWHI=",
+                                "range": {
+                                    "lower": "13186829271953411720",
+                                    "upper": "13190668852713583387"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "d6f2655b6d081e580bfa359fa3a5cac80ad2c037ca3fb01dc986ffd5b25b1501fbf5f9380a0e06055d8cf6ee755a1f12a221d474c2b3d908e56bbefce809c805"
+                }
+            },
+            "tx": "ywoKyAkKAS8SwgkKjAUIjQQSOgogiI6BJFsHAbdHIT2eawh1lcTBX4mrKfvv8v+tHwvq\/9ASFgjMh82x8NTNxLYBEIidhqSy68GAtwESOgogXLEq9zson21upaDh8Bkkyw9qUnE+Id7YM3JBerKgN2USFgib5rWe8+2qh7cBEOL4hODDz+q6twESOgogfKN7I21xpzFO3zhr4vqFv74d7orAt6+3mhs3X7EHjgISFgiWu7bPwqGXh7YBEMyHzbHw1M3EtgESOgogMr5AQavh+lwKg5GSwcuJSesKcb26gOwehfRt\/RMeX60SFgjhkqHP7ou70rMBEJa7ts\/CoZeHtgESOgogELYrLZMM9BvMzEw7zGxPBbgTzJobOW\/3I8dlk04mVjsSFgji+ITgw8\/qurcBEMO8lbPTuJ3suwESOgoglLiORJ+hqOiCe84bGlR0R40jurzE5qp27Vomvg9bXSsSFgjDvJWz07id7LsBEPb5tv3b38iXxAESOgoggXaroC4U5vc1mEgH18Rad1t\/zWVliUQPT8iuEzRAtyASFgj2+bb929\/Il8QBEILG59a19vur2QESOgog0JDtmg5THFTooumZtIQWjZ9\/jhuzZIJcNvD13eWsL9wSFgiCxufWtfb7q9kBEIPj7tytvdLj\/wESOgogBbllR5yiY9pY39quLLpZNhbjL9QT91iymzoogG8yDcISFgiD4+7crb3S4\/8BEIPl7tytvdLj\/wESLwogr9D\/WmsXHa+hn5zG4OdzrGV3\/vT0J2ENw6Sg6D8uFeQSCxDhkqHP7ou70rMBGjoKIBtzzTNvqw63XxocwwcsVVQwnBjNGiZJlb4VW19vElhyEhYIiJ2GpLLrwYC3ARCb5rWe8+2qh7cBEq4ECqsECkA4M2U3MGQ0OGZhMDcyOWQzNjQ3MWE5MWE5NmIzZjE5MTIyNDkzZjA0ZTE1OTM2MDVjYjNmOWEyODUxMGNlZTYzEID4uYPS8uhiGJH7AiJANTE2MjZjNzU2NmZlZjYyMWVmNGRjZjlkMmZiN2UzOTU4OWY0ZmUyOGQ2NTllNzYxMWM4NTk2MzY3ODRmNTA4NSoEMDA0MDKOAgoFMC4wLjESQDkzMzAwZDVhZGYwN2M0MGZjMmIxODIxYThhZDZhZGU5N2Y4YTJjY2YxY2JkZTliMzFhMjM4MjQ5NzNiZTdjNzUaQGU3ZTkxMjAyNTczYmRkMTkyN2IwMGZjZTliMGI0NmZhNzk0NGIwNmU2ZmUxYmM5ODdhYmM4NmU0ZDBkZDQ3ZDYigAE3NTlhMTljZjQyYjg4MDdmMzJlNWJiNDhjZWRiOGI2NjVlZGI4NjVjNGM3ZDE0NzhhMmU2YjNhOWQ2ZDAzNjAxNWUwY2M2OGI4ZGU5ZGE2NWZhMjg5MDNkOGU0ZDVlNzAwYjZiZWFlMTIxYTU2ODM5ZGE4NWQzNjg4OGFkOGEwZDqAATU1ZGVkYmVhMzNhMmRkNTkzNGVhNGQyOTZjODRjNWJjMzE0MzFhNTc1N2RhYjIyY2RlODkxNGEwNWEyZGE4N2VjYTkzZWE2MDM5OGFjZWFkYzRhYjY4ZDY3MDM1NjA3YzU2MTc5YjgzNTg1MmIzMGMzOThkNjNmMTUzMzc1ZjA5GAESDgoFdXBva3QSBTEwMDAwGmQKIFFibHVm\/vYh703PnS+345WJ9P4o1lnnYRyFljZ4T1CFEkDW8mVbbQgeWAv6NZ+jpcrICtLAN8o\/sB3Jhv\/VslsVAfv1+TgKDgYFXYz27nVaHxKiIdR0wrPZCOVrvvzoCcgFKPrZ08X5+caPSQ==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "3F64C14DE030000F48F4B3F9C17A565BE094BEE6F3FA5500BDE3CBC04A00ADFE",
+            "height": 48756,
+            "index": 658,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 6680706984275744000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "f2bd40b35a946fa6dcea3b42c79696b3276a77b2fa43e2adb1ff88c4c44cd137",
+                            "chain": "0040",
+                            "session_height": "48749"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "45jdmzsoblalJ6onWg2KPfAjsZhjKjRlb0zUQaFiCQQ=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18446082265424006223"
+                            }
+                        },
+                        "total_proofs": "63954"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "777838c8ff27e6af476a5a004f95c74527686fac3a1fb639185c76b7db7c667f3affb559f49a9ca29706f86469e3830c1aa7c9aa8635e1d0fd98d884f56f220b"
+                }
+            },
+            "tx": "uQIKtgEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmwEKTApAZjJiZDQwYjM1YTk0NmZhNmRjZWEzYjQyYzc5Njk2YjMyNzZhNzdiMmZhNDNlMmFkYjFmZjg4YzRjNDRjZDEzNxIEMDA0MBjt\/AISLwog45jdmzsoblalJ6onWg2KPfAjsZhjKjRlb0zUQaFiCQQSCxDPmOyB7MLp\/v8BGNLzAyIUylKvuZREwCh44eHVq31VfmfWfYEoARIOCgV1cG9rdBIFMTAwMDAaZAogUWJsdWb+9iHvTc+dL7fjlYn0\/ijWWedhHIWWNnhPUIUSQHd4OMj\/J+avR2paAE+Vx0UnaG+sOh+2ORhcdrfbfGZ\/Ov+1WfSanKKXBvhkaeODDBqnyaqGNeHQ\/ZjYhPVvIgsokKrosbPzqNtc",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "43652B7531D5FD97E92F08365ADD931608FE976F55B61C85799116E33EAD1346",
+            "height": 48764,
+            "index": 553,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -6839257569259988000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "f2bd40b35a946fa6dcea3b42c79696b3276a77b2fa43e2adb1ff88c4c44cd137",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "2088b1b0fbc460f2c6798cd429740a8b85d09744a748daf0cc34ba98f17f8c205125300f2c4204ce2e41a44b850bf57226756a886cd704ae2bf0e99dfc65530b",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "54572376810856510",
+                                "request_hash": "d852c981fe3f81a219818b7771c715cb478ed15c4158d6d9b91020f984440cf5",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "48749",
+                                "signature": "9c56220040c175e52a4f1ab282e9f9443ed9b1b234b048a86220b977633dfc7bae7ce4a076992ca495f4b337637143332fc6f51e41e681508a705478c733070d"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "bKnJzy9\/ZIm\/4IsPuhmMWBg4CXoMmMZU2RCxfJDdSCI=",
+                                    "range": {
+                                        "lower": "9899808343331059682",
+                                        "upper": "9900177724193483116"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "deBr1uu6cNXcrx\/L0H2VZwTRfsV3b2rOE6iaQyHjSTo=",
+                                    "range": {
+                                        "lower": "9899617810895917628",
+                                        "upper": "9899808343331059682"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ToJAZchZfWjgRgcQRWwsdxn+fCgz0dwd4YfES3lfki8=",
+                                    "range": {
+                                        "lower": "9898758936048803740",
+                                        "upper": "9899617810895917628"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "s0bOXmHf48HJXYFpV2tB8TkvctNSUtBXx44AO4KNI+I=",
+                                    "range": {
+                                        "lower": "9900513791023954297",
+                                        "upper": "9901671650877298582"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "etsifd3MTFuD9t9odas8fqzGwCoeOlTdmHqGDRQp1J8=",
+                                    "range": {
+                                        "lower": "9895966319324377616",
+                                        "upper": "9898758936048803740"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "MKsGmuCIYoTfjpdjMY2D5ljOdb76P945PaUYlZTC5WA=",
+                                    "range": {
+                                        "lower": "9887086359971088773",
+                                        "upper": "9895966319324377616"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "y2EF25ydA7qxZ2u6oo843M3YFhhsQg3zXUgn5XMvc\/U=",
+                                    "range": {
+                                        "lower": "9870132400390687009",
+                                        "upper": "9887086359971088773"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "YIafMRy+iqX0TlAHxaaJvuQILr7TuYmX4cY9AIMHNiM=",
+                                    "range": {
+                                        "lower": "9828785271261174409",
+                                        "upper": "9870132400390687009"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "JnadRmukwdKJupx1P7bgzEdevKJr3\/7heg9\/bFsob1o=",
+                                    "range": {
+                                        "lower": "9756477899378762100",
+                                        "upper": "9828785271261174409"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "qKTkXbx7Ja5PwO6Bi5srLBtQP9F13Qf+h87dHO6U+IM=",
+                                    "range": {
+                                        "lower": "9901671650877298582",
+                                        "upper": "10045971318148873667"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "d+pZhQVDJgTgv4k0g8YgKxx\/a\/9k60uBTNEf\/WnGqTI=",
+                                    "range": {
+                                        "lower": "9462704046716892617",
+                                        "upper": "9756477899378762100"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "\/dAS6qSlvnlJVdFnsIWxFE672HrQ5Lk5IpWyiWwAkDQ=",
+                                    "range": {
+                                        "lower": "10045971318148873667",
+                                        "upper": "10632909172474988438"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "N8K48ZTOLPBVi46F+mIPtFAC7r8CRQOiKgNmGLYitNg=",
+                                    "range": {
+                                        "lower": "10632909172474988438",
+                                        "upper": "11812427852161581719"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "yhnzTl9ZcAxniMMB5LrSTo6qWnHzyGH8ktpdw4zJI4E=",
+                                    "range": {
+                                        "lower": "11812427852161581719",
+                                        "upper": "14156726244893478493"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "DLDPfAbjCLmVXX6J\/6VPEG0BDkybqtUxJuiVuKe7vpU=",
+                                    "range": {
+                                        "lower": "14156726244893478493",
+                                        "upper": "18446082265424006223"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "9pz8pQoRNgFAWXUnY2uWdtEPOn5J9kapIBqvXbyaljI=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "9462704046716892617"
+                                    }
+                                }
+                            ],
+                            "index": "34295",
+                            "target_range": {
+                                "merkleHash": "ebnWd9awZYlaVtQxTDy282BBaPnvlCW573iJSaGeZ+4=",
+                                "range": {
+                                    "lower": "9900177724193483116",
+                                    "upper": "9900513791023954297"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "310a1c1be2b6a51ec2c6b5515065d47b77ee95071c96444ed111147ae808ca9bb779a2deabea3090599856bf5418d22132a8e03e570e3d3e43cd6fbd2cbafb03"
+                }
+            },
+            "tx": "tQ0KsQwKAS8SqwwK9QcI94sCEjoKIGypyc8vf2SJv+CLD7oZjFgYOAl6DJjGVNkQsXyQ3UgiEhYI4u\/Ihcrny7GJARDs0qb+\/OWfsokBEjoKIHXga9brunDV3K8fy9B9lWcE0X7Fd29qzhOomkMh40k6EhYIvKTTtK2+oLGJARDi78iFyufLsYkBEjoKIE6CQGXIWX1o4EYHEEVsLHcZ\/nwoM9HcHeGHxEt5X5IvEhYInL+mo+eZ3a+JARC8pNO0rb6gsYkBEjoKILNGzl5h3+PByV2BaVdrQfE5L3LTUlLQV8eOADuCjSPiEhYI+fLavuea7LKJARCWr+PI+7zztIkBEjoKIHrbIn3dzExbg\/bfaHWrPH6sxsAqHjpU3Zh6hg0UKdSfEhYIkOS8pPud4qqJARCcv6aj55ndr4kBEjoKIDCrBprgiGKE346XYzGNg+ZYznW++j\/eOT2lGJWUwuVgEhYIhZO\/7ZCV\/5qJARCQ5Lyk+53iqokBEjoKIMthBducnQO6sWdruqKPONzN2BYYbEIN811IJ+VzL3P1EhYIoZLx2vuj8PyIARCFk7\/tkJX\/mokBEjoKIGCGnzEcvoql9E5QB8Wmib7kCC6+07mJl+HGPQCDBzYjEhYIibX02JCEt7OIARChkvHa+6Pw\/IgBEjoKICZ2nUZrpMHSibqcdT+24MxHXryia9\/+4XoPf2xbKG9aEhYI9MKu29Ge\/rKHARCJtfTYkIS3s4gBEjoKIKik5F28eyWuT8DugYubKywbUD\/Rdd0H\/ofO3RzulPiDEhYIlq\/jyPu887SJARDD+5qQgradtYsBEjoKIHfqWYUFQyYE4L+JNIPGICscf2v\/ZOtLgUzRH\/1pxqkyEhYIyevYuZ7mkamDARD0wq7b0Z7+socBEjoKIP3QEuqkpb55SVXRZ7CFsRROu9h60OS5OSKVsolsAJA0EhYIw\/uakIK2nbWLARCWj\/XS6NHrx5MBEjoKIDfCuPGUzizwVYuOhfpiD7RQAu6\/AkUDoioDZhi2IrTYEhYIlo\/10ujR68eTARCXhZb4vpGL96MBEjoKIMoZ805fWXAMZ4jDAeS60k6Oqlpx88hh\/JLaXcOMySOBEhYIl4WW+L6Ri\/ejARDdnM2KuvCyu8QBEjoKIAywz3wG4wi5lV1+if+lTxBtAQ5Mm6rVMSbolbinu76VEhYI3ZzNirrwsrvEARDPmOyB7MLp\/v8BEi8KIPac\/KUKETYBQFl1J2NrlnbRDzp+SfZGqSAar128mpYyEgsQyevYuZ7mkamDARo6CiB5udZ31rBliVpW1DFMPLbzYEFo+e+UJbnveIlJoZ5n7hIWCOzSpv785Z+yiQEQ+fLavuea7LKJARKuBAqrBApAZDg1MmM5ODFmZTNmODFhMjE5ODE4Yjc3NzFjNzE1Y2I0NzhlZDE1YzQxNThkNmQ5YjkxMDIwZjk4NDQ0MGNmNRC+wPDyman4YBjt\/AIiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwNDAyjgIKBTAuMC4xEkBmMmJkNDBiMzVhOTQ2ZmE2ZGNlYTNiNDJjNzk2OTZiMzI3NmE3N2IyZmE0M2UyYWRiMWZmODhjNGM0NGNkMTM3GkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABMjA4OGIxYjBmYmM0NjBmMmM2Nzk4Y2Q0Mjk3NDBhOGI4NWQwOTc0NGE3NDhkYWYwY2MzNGJhOThmMTdmOGMyMDUxMjUzMDBmMmM0MjA0Y2UyZTQxYTQ0Yjg1MGJmNTcyMjY3NTZhODg2Y2Q3MDRhZTJiZjBlOTlkZmM2NTUzMGI6gAE5YzU2MjIwMDQwYzE3NWU1MmE0ZjFhYjI4MmU5Zjk0NDNlZDliMWIyMzRiMDQ4YTg2MjIwYjk3NzYzM2RmYzdiYWU3Y2U0YTA3Njk5MmNhNDk1ZjRiMzM3NjM3MTQzMzMyZmM2ZjUxZTQxZTY4MTUwOGE3MDU0NzhjNzMzMDcwZBgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAMQocG+K2pR7CxrVRUGXUe3fulQcclkRO0REUeugIypu3eaLeq+owkFmYVr9UGNIhMqjgPlcOPT5DzW+9LLr7AyjWte3GoO+Ei6EB",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "68296CA1CE78923BD698E3FA8971F8A07BA93C748A195A0559E9D912AD1C039A",
+            "height": 49340,
+            "index": 315,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -4210358011314494500,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "ecfae3452170539aff5117584add15eefbbe3bd2020a2532a6dd47fc02c660bd",
+                            "chain": "0040",
+                            "session_height": "49333"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "D4AAfCwiSA7Z8bZn84fd5VXVlpb7+g\/Sz8SruMAfZCo=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18446056806742895012"
+                            }
+                        },
+                        "total_proofs": "68308"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "8c08ab6a5836fe4b4b748bfeb5a9f898aa831533072283f650a99e207bf121d5cdcc5ebc7b645e6b5a5c866e7aff1a9dfe5883c196987e1a218104e0d637910a"
+                }
+            },
+            "tx": "ugIKtgEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmwEKTApAZWNmYWUzNDUyMTcwNTM5YWZmNTExNzU4NGFkZDE1ZWVmYmJlM2JkMjAyMGEyNTMyYTZkZDQ3ZmMwMmM2NjBiZBIEMDA0MBi1gQMSLwogD4AAfCwiSA7Z8bZn84fd5VXVlpb7+g\/Sz8SruMAfZCoSCxCk09iE893j\/v8BGNSVBCIUylKvuZREwCh44eHVq31VfmfWfYEoARIOCgV1cG9rdBIFMTAwMDAaZAogUWJsdWb+9iHvTc+dL7fjlYn0\/ijWWedhHIWWNnhPUIUSQIwIq2pYNv5LS3SL\/rWp+JiqgxUzByKD9lCpniB78SHVzcxevHtkXmtaXIZuev8anf5Yg8GWmH4aIYEE4NY3kQooz8iEs6O288jFAQ==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "5BFEF10F2BDE7430F187303EE9A62D91B700D6E8916008DF3BE66EB4A6001084",
+            "height": 49348,
+            "index": 303,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 2464756303684628000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "ecfae3452170539aff5117584add15eefbbe3bd2020a2532a6dd47fc02c660bd",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "1cc0e635f50c6d60cbb5ef37249c37df88350b9cf33e12a22f7b76b108120c76c463c4fd3f78ff8ca96cb531cf36f53ca01971d6698728e554ad69e2336bb50b",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "28386406872321590",
+                                "request_hash": "934c1d4609d39728545acad6822877d682fb5b54f1705afc32ebf7c44318e59c",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "49333",
+                                "signature": "245d327ae20b9f0add9b1dc80db68ffd1a74e58f15f3091eb0262a9397dd5ba68bf8169834f6b304cca784c0a4098488588a19fd16196f85e050fa29f722d50e"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "r8oScNSaVBk6Ej90\/W5yZEcy6fI\/\/Li3ISUd5Fo\/Pa8=",
+                                    "range": {
+                                        "lower": "1825152947432264044",
+                                        "upper": "1825253986195917487"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "QclCytyPUQUkNjh0tK4E37osEppOW\/ZXp4PLIBd7IbI=",
+                                    "range": {
+                                        "lower": "1824038306261077001",
+                                        "upper": "1824987815975264148"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "DetAV49pX2nhRaxz9EA8qy74ob\/FkyZAmJrnG\/gq8gw=",
+                                    "range": {
+                                        "lower": "1825253986195917487",
+                                        "upper": "1826115729276631609"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "amE\/7jtQOW3Ik3HSy0Ttcv1bMcMwbYjfr4n4U1cAaak=",
+                                    "range": {
+                                        "lower": "1826115729276631609",
+                                        "upper": "1827961053021922312"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "CeQni7seQH35+mnAjREU+La85Xj7Prf\/hS3UOQ4jP3o=",
+                                    "range": {
+                                        "lower": "1819440313581142781",
+                                        "upper": "1824038306261077001"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ZimrlvVRkqf4bJs1\/wRKBICsH7RFhtRYL8cLZz3Clbk=",
+                                    "range": {
+                                        "lower": "1827961053021922312",
+                                        "upper": "1835925044677106004"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "PrSToEvBeP\/kUfHPcZulbOZMmcmaHQyfi0p7HTTbpVI=",
+                                    "range": {
+                                        "lower": "1804324529061115716",
+                                        "upper": "1819440313581142781"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "iMLlR6KZ85oRh2vcxDyzN+UsZ6ftqGz33iahp3SLuNE=",
+                                    "range": {
+                                        "lower": "1835925044677106004",
+                                        "upper": "1868678331328005422"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "hA6PHTcQK98s9tOmumvnsmMJ3T\/UgW+fMN8hilsG7g0=",
+                                    "range": {
+                                        "lower": "1868678331328005422",
+                                        "upper": "1935609470588567116"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "hkQRgNNe8bKDljN8VvqLN5yINDy8Bf1Rjghgki65dNY=",
+                                    "range": {
+                                        "lower": "1666190382555886174",
+                                        "upper": "1804324529061115716"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "8OsUAYUC1TnOmuyMPPJ4J9mDjce7pWf5DJF1ywuDUXA=",
+                                    "range": {
+                                        "lower": "1935609470588567116",
+                                        "upper": "2203299948243312035"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "SFdPBKs7c3oacaazvp2qnxhDjer45HAbphr4fanocMY=",
+                                    "range": {
+                                        "lower": "1100768967592659419",
+                                        "upper": "1666190382555886174"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "vkohguD+EpzEdcXyyWujNZSs58iVKCkAcpAc1NoIDgU=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "1100768967592659419"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "53VRJBaTzuwgOUahugI84PgQbUQNfN1dX16A9AmuJP4=",
+                                    "range": {
+                                        "lower": "2203299948243312035",
+                                        "upper": "4395378579628296691"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ez315PvSoqvjvC+ZaJAFQZ+XDvAwOvd3cWIkD2NauW8=",
+                                    "range": {
+                                        "lower": "4395378579628296691",
+                                        "upper": "8828299260233246185"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "p3PCuRuqxLldyQv8Ff6tqJ1oWyk4a4O4lkIn3RhcHRs=",
+                                    "range": {
+                                        "lower": "8828299260233246185",
+                                        "upper": "17698154826885119773"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "GPy2fS3u02MpjQ6zow1WR288mFbb4cxCcQNqqFwk9zE=",
+                                    "range": {
+                                        "lower": "17698154826885119773",
+                                        "upper": "18446056806742895012"
+                                    }
+                                }
+                            ],
+                            "index": "6738",
+                            "target_range": {
+                                "merkleHash": "bBF1hO8+VBnwPYtmUSe1Ux4m+e32oafIOfXLjyviPYg=",
+                                "range": {
+                                    "lower": "1824987815975264148",
+                                    "upper": "1825152947432264044"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "51bff9ef80ab00d068be4b0225e0e56e3a74387d4638803e4ce19f9d50bee5330c123286c0a6eafb75a0b8ad4e3bb3316142b2c83feff5c104e9ba9f07bf0205"
+                }
+            },
+            "tx": "zw0KzAwKAS8SxgwKkAgI0jQSOAogr8oScNSaVBk6Ej90\/W5yZEcy6fI\/\/Li3ISUd5Fo\/Pa8SFAjsotSj+N2PqhkQr5XLgMfapqoZEjgKIEHJQsrcj1EFJDY4dLSuBN+6LBKaTlv2V6eDyyAXeyGyEhQIiZiWq86lkqgZEJS\/\/NT9l+qpGRI4CiAN60BXj2lfaeFFrHP0QDyrLvihv8WTJkCYmucb+CryDBIUCK+Vy4DH2qaqGRC59KWSytLqqxkSOAogamE\/7jtQOW3Ik3HSy0Ttcv1bMcMwbYjfr4n4U1cAaakSFAi59KWSytLqqxkQiMj75Micjq8ZEjgKIAnkJ4u7HkB9+fppwI0RFPi2vOV4+z63\/4Ut1DkOIz96EhQI\/YWe6LTq\/J8ZEImYlqvOpZKoGRI4CiBmKauW9VGSp\/hsmzX\/BEoEgKwftEWG1FgvxwtnPcKVuRIUCIjI++TInI6vGRDUsuPRnYOhvRkSOAogPrSToEvBeP\/kUfHPcZulbOZMmcmaHQyfi0p7HTTbpVISFAjE7tixl\/OPhRkQ\/YWe6LTq\/J8ZEjgKIIjC5UeimfOaEYdr3MQ8szflLGen7ahs994moad0i7jREhQI1LLj0Z2Dob0ZEK6KmtKqobj3GRI4CiCEDo8dNxAr3yz206a6a+eyYwndP9SBb58w3yGKWwbuDRIUCK6KmtKqobj3GRDM\/MCy7tGq7hoSOAoghkQRgNNe8bKDljN8VvqLN5yINDy8Bf1Rjghgki65dNYSFAje5KnDs+rfjxcQxO7YsZfzj4UZEjgKIPDrFAGFAtU5zprsjDzyeCfZg43Hu6Vn+QyRdcsLg1FwEhQIzPzAsu7Rqu4aEKO7t+WRtOzJHhI4CiBIV08EqztzehpxprO+naqfGEON6vjkcBumGvh9qehwxhIUCNuTiemz8a2jDxDe5KnDs+rfjxcSLgogvkohguD+EpzEdcXyyWujNZSs58iVKCkAcpAc1NoIDgUSChDbk4nps\/Gtow8SOAog53VRJBaTzuwgOUahugI84PgQbUQNfN1dX16A9AmuJP4SFAiju7flkbTsyR4Q85Ps4Pyw4f88EjgKIHs99eT70qKr47wvmWiQBUGflw7wMDr3d3FiJA9jWrlvEhQI85Ps4Pyw4f88EOnLr4jy7JrCehI5CiCnc8K5G6rEuV3JC\/wV\/q2onWhbKThrg7iWQifdGFwdGxIVCOnLr4jy7JrCehCd\/uiivcGezvUBEjoKIBj8tn0t7tNjKY0Os6MNVkdvPJhW2+HMQnEDaqhcJPcxEhYInf7oor3Bns71ARCk09iE893j\/v8BGjgKIGwRdYTvPlQZ8D2LZlEntVMeJvnt9qGnyDn1y48r4j2IEhQIlL\/81P2X6qkZEOyi1KP43Y+qGRKuBAqrBApAOTM0YzFkNDYwOWQzOTcyODU0NWFjYWQ2ODIyODc3ZDY4MmZiNWI1NGYxNzA1YWZjMzJlYmY3YzQ0MzE4ZTU5YxC2nMyQlqm2Mhi1gQMiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwNDAyjgIKBTAuMC4xEkBlY2ZhZTM0NTIxNzA1MzlhZmY1MTE3NTg0YWRkMTVlZWZiYmUzYmQyMDIwYTI1MzJhNmRkNDdmYzAyYzY2MGJkGkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABMWNjMGU2MzVmNTBjNmQ2MGNiYjVlZjM3MjQ5YzM3ZGY4ODM1MGI5Y2YzM2UxMmEyMmY3Yjc2YjEwODEyMGM3NmM0NjNjNGZkM2Y3OGZmOGNhOTZjYjUzMWNmMzZmNTNjYTAxOTcxZDY2OTg3MjhlNTU0YWQ2OWUyMzM2YmI1MGI6gAEyNDVkMzI3YWUyMGI5ZjBhZGQ5YjFkYzgwZGI2OGZmZDFhNzRlNThmMTVmMzA5MWViMDI2MmE5Mzk3ZGQ1YmE2OGJmODE2OTgzNGY2YjMwNGNjYTc4NGMwYTQwOTg0ODg1ODhhMTlmZDE2MTk2Zjg1ZTA1MGZhMjlmNzIyZDUwZRgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAUb\/574CrANBovksCJeDlbjp0OH1GOIA+TOGfnVC+5TMMEjKGwKbq+3WguK1OO7MxYUKyyD\/v9cEE6bqfB78CBSiX25uYytmkmiI=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "DA0A09FB6A250738F1BF13850C464A1EE76396C3E05BE7E65DD5DD7995A39F92",
+            "height": 49384,
+            "index": 422,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 2834553409757872000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "d4c45c71482d13e4d7a80d9935bc0647df069a5135fe0074f74fdf467b205f4c",
+                            "chain": "0021",
+                            "session_height": "49377"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "y3vUmTKfJQrLwums9zmg73M0SRULII6cLR4mzykEvOs=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "17809504332884511652"
+                            }
+                        },
+                        "total_proofs": "48"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "127c4f94a3d4b9bd0073c611a5f54bfa6f6030a995a0648b084a7f14dafdaee02d5efaa2f336d9717744dc552c04647db7fd6d6c4f4bf2a4833c6968c5b4a40f"
+                }
+            },
+            "tx": "twIKtAEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmQEKTApAZDRjNDVjNzE0ODJkMTNlNGQ3YTgwZDk5MzViYzA2NDdkZjA2OWE1MTM1ZmUwMDc0Zjc0ZmRmNDY3YjIwNWY0YxIEMDAyMRjhgQMSLwogy3vUmTKfJQrLwums9zmg73M0SRULII6cLR4mzykEvOsSCxCkl\/Laz7qElPcBGDAiFMpSr7mURMAoeOHh1at9VX5n1n2BKAESDgoFdXBva3QSBTEwMDAwGmQKIFFibHVm\/vYh703PnS+345WJ9P4o1lnnYRyFljZ4T1CFEkASfE+Uo9S5vQBzxhGl9Uv6b2AwqZWgZIsISn8U2v2u4C1e+qLzNtlxd0TcVSwEZH23\/W1sT0vypIM8aWjFtKQPKIyB9uvt6ZarJw==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "3CC1B64327D392AD1BFE0D20C482E93FA2602FE8884619F0BEBD336C69AD1986",
+            "height": 49392,
+            "index": 372,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 7322659594510899000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "d4c45c71482d13e4d7a80d9935bc0647df069a5135fe0074f74fdf467b205f4c",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "5bbe988c41045caa7948003e41a796366efc7a4eab4f5654877cdc94adc49e185899aa56295ae00345425d628b8ec5ba66eb7e655d6c00c96f16637d90eebf0c",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0021",
+                                "entropy": "67965250651689130",
+                                "request_hash": "981fbac2eec9cbc01d6bb372f5aab555aef6f88dad33fec02e4da9c122ada35f",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "49377",
+                                "signature": "4ffcd419915548c13c05bb2763b88e4a3b99697576af2329b74b8a0d819bf9b19be3727765ea3612d183aed3cbc3c172b26ecff89694d18b334d46af3a47080e"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "jfTzQLg5QSkkNMSu\/K7sGNKYa6eD8aGyuaMgNzvHqe8=",
+                                    "range": {
+                                        "lower": "2805926243724306582",
+                                        "upper": "2972720692567733389"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "IUHVmYJmW1eRbzFJjEjjIOcC4kFRspmJKz\/LgFr0sEQ=",
+                                    "range": {
+                                        "lower": "2972720692567733389",
+                                        "upper": "3460562140503773095"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "b+481ziLaN39\/IBLVO67kpxW9bXUikzmv92wx8tN13M=",
+                                    "range": {
+                                        "lower": "3460562140503773095",
+                                        "upper": "5637264257266578012"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "v\/bWuPQrBda7S1u4tyJ0cPK3aBKYPL1l9wbFMjMNA44=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "2753300475635369593"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "e4GcSAD3svdxhaOEuFBLm5Psx6cuD1J1B+mraOyD+xE=",
+                                    "range": {
+                                        "lower": "5637264257266578012",
+                                        "upper": "13765817524084817454"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "5VhRjuHAHK6fvaGztSFmbirWaEB97nt9RuBTSAIKDx4=",
+                                    "range": {
+                                        "lower": "13765817524084817454",
+                                        "upper": "17809504332884511652"
+                                    }
+                                }
+                            ],
+                            "index": "8",
+                            "target_range": {
+                                "merkleHash": "ligiXw2n8CbX8k3X0TwvvBaquSH1GhVrFpCCaf9QzMo=",
+                                "range": {
+                                    "lower": "2753300475635369593",
+                                    "upper": "2805926243724306582"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "991bd21c8a173514780ec47d7a1e5110bddc21239dcf3ae5e341e13911b95052408c12ebe4625b7e05b1c48d14ed2a8892bdb12bed718d0e1202f0bb45819b09"
+                }
+            },
+            "tx": "0AgKzQcKAS8SxwcKkQMICBI4CiCN9PNAuDlBKSQ0xK78ruwY0phrp4PxobK5oyA3O8ep7xIUCJbRiPnV4an4JhCN6c+HhLfOoCkSOAogIUHVmYJmW1eRbzFJjEjjIOcC4kFRspmJKz\/LgFr0sEQSFAiN6c+HhLfOoCkQp5+Sn+ndmIMwEjgKIG\/uPNc4i2jd\/fyAS1Tuu5KcVvW11IpM5r\/dsMfLTddzEhQIp5+Sn+ndmIMwENzkhbuXv+WdThIuCiC\/9ta49CsF1rtLW7i3InRw8rdoEpg8vWX3BsUyMw0DjhIKEPmMpNGehuyaJhI5CiB7gZxIAPey93GFo4S4UEubk+zHpy4PUnUH6ato7IP7ERIVCNzkhbuXv+WdThCu\/LDvqMOAhb8BEjoKIOVYUY7hwByun72hs7UhZm4q1mhAfe57fUbgU0gCCg8eEhYIrvyw76jDgIW\/ARCkl\/Laz7qElPcBGjgKIJYoIl8Np\/Am1\/JN19E8L7wWqrkh9RoVaxaQgmn\/UMzKEhQI+Yyk0Z6G7JomEJbRiPnV4an4JhKuBAqrBApAOTgxZmJhYzJlZWM5Y2JjMDFkNmJiMzcyZjVhYWI1NTVhZWY2Zjg4ZGFkMzNmZWMwMmU0ZGE5YzEyMmFkYTM1ZhCqoajxkMHdeBjhgQMiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwMjEyjgIKBTAuMC4xEkBkNGM0NWM3MTQ4MmQxM2U0ZDdhODBkOTkzNWJjMDY0N2RmMDY5YTUxMzVmZTAwNzRmNzRmZGY0NjdiMjA1ZjRjGkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABNWJiZTk4OGM0MTA0NWNhYTc5NDgwMDNlNDFhNzk2MzY2ZWZjN2E0ZWFiNGY1NjU0ODc3Y2RjOTRhZGM0OWUxODU4OTlhYTU2Mjk1YWUwMDM0NTQyNWQ2MjhiOGVjNWJhNjZlYjdlNjU1ZDZjMDBjOTZmMTY2MzdkOTBlZWJmMGM6gAE0ZmZjZDQxOTkxNTU0OGMxM2MwNWJiMjc2M2I4OGU0YTNiOTk2OTc1NzZhZjIzMjliNzRiOGEwZDgxOWJmOWIxOWJlMzcyNzc2NWVhMzYxMmQxODNhZWQzY2JjM2MxNzJiMjZlY2ZmODk2OTRkMThiMzM0ZDQ2YWYzYTQ3MDgwZRgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAmRvSHIoXNRR4DsR9eh5REL3cISOdzzrl40HhORG5UFJAjBLr5GJbfgWxxI0U7SqIkr2xK+1xjQ4SAvC7RYGbCSiqrLavqoPUz2U=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "6F270DE4DEFA809D8C40D78A7F1E089FB5AF3F3146684CA054159C4A25D0BEE9",
+            "height": 49398,
+            "index": 665,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -7323162812891244000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "ecfae3452170539aff5117584add15eefbbe3bd2020a2532a6dd47fc02c660bd",
+                            "chain": "0040",
+                            "session_height": "49389"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "MGezv9FWiNolkQ7jmzmz3G9\/rSLnyU\/Lr0EYpvueZNY=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18446718792657140277"
+                            }
+                        },
+                        "total_proofs": "76354"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "9f7c60455d79e5448fafc8607952623f140fc8189db7e1820f9f35e66a1c4aea9abf1746732594baaa25e3913bb245fe0d45c911a8b282a7d3765dc04fa1ae07"
+                }
+            },
+            "tx": "ugIKtgEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmwEKTApAZWNmYWUzNDUyMTcwNTM5YWZmNTExNzU4NGFkZDE1ZWVmYmJlM2JkMjAyMGEyNTMyYTZkZDQ3ZmMwMmM2NjBiZBIEMDA0MBjtgQMSLwogMGezv9FWiNolkQ7jmzmz3G9\/rSLnyU\/Lr0EYpvueZNYSCxC19OfenKD6\/\/8BGMLUBCIUylKvuZREwCh44eHVq31VfmfWfYEoARIOCgV1cG9rdBIFMTAwMDAaZAogUWJsdWb+9iHvTc+dL7fjlYn0\/ijWWedhHIWWNnhPUIUSQJ98YEVdeeVEj6\/IYHlSYj8UD8gYnbfhgg+fNeZqHErqmr8XRnMllLqqJeORO7JF\/g1FyRGosoKn03ZdwE+hrgcoj7eRiovHua+aAQ==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "214E199E0D8956CD6838C956D863C3B2A27C2C2E3049F9BAB6023DA4CDC3AF4F",
+            "height": 49404,
+            "index": 413,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -6378669073454840000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "ecfae3452170539aff5117584add15eefbbe3bd2020a2532a6dd47fc02c660bd",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "1cc0e635f50c6d60cbb5ef37249c37df88350b9cf33e12a22f7b76b108120c76c463c4fd3f78ff8ca96cb531cf36f53ca01971d6698728e554ad69e2336bb50b",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "50629753025776056",
+                                "request_hash": "d929877ce3ca9c974660a079d091771a6a63e123a7bb436df989278e825a6370",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "49389",
+                                "signature": "db369a685e7b4a7c67c8bea24672c223a9b84f97ecd5adef89407e9340d79cb8c6f2932b3b38c57ff87c57b9914f7994bee6488ed98a07f610dd967adedff40e"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "O+LXMF6gzJLDFDQuOdnFWh+3ntzGv+I17o3tK\/HZ7zk=",
+                                    "range": {
+                                        "lower": "10577933542167719643",
+                                        "upper": "10578005951193276987"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Q5NrTbdQJvYDcij3qI5XlKnvzNtFx1baq0d1tR8G4bc=",
+                                    "range": {
+                                        "lower": "10576916160143374297",
+                                        "upper": "10577746275599317703"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "8CfhDSVOBZbHxwqJgUBMUsxJ7238iBiLWbAFvEsxq4I=",
+                                    "range": {
+                                        "lower": "10578005951193276987",
+                                        "upper": "10578507289556632764"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "jL1fOH29Yr5dg4UCdmbBSf\/EvMbTZ7YGYQ19DDsW5zw=",
+                                    "range": {
+                                        "lower": "10578507289556632764",
+                                        "upper": "10579663619492977981"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "CdwYX5bbWqMlDrsH37jVH6LR\/yqcQFBaPoNJI2UX2io=",
+                                    "range": {
+                                        "lower": "10579663619492977981",
+                                        "upper": "10583287489416018128"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "98ktMxIWkFpEuRJ8paK4qr5ou8m6orYW+X4K3szr32E=",
+                                    "range": {
+                                        "lower": "10583287489416018128",
+                                        "upper": "10591082943407512006"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "mjdMxsFwpRYND6CKFPD9HF75UR+Zk0dIiUGh8Tioy2E=",
+                                    "range": {
+                                        "lower": "10591082943407512006",
+                                        "upper": "10604859095501527966"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "MlVSgL2VVjhqnOLZisBVy6Aww27fmGyiG1XtVj2CZzU=",
+                                    "range": {
+                                        "lower": "10546774549023723569",
+                                        "upper": "10576916160143374297"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Q+eSbzxRmLFKi5wegGQ03yYikKE09fMADvXSQ7G+k2o=",
+                                    "range": {
+                                        "lower": "10486023023222516698",
+                                        "upper": "10546774549023723569"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "QYVbvnMzPZSbQ+nibVOx1Ncg7FlA1N27xCe9ZMYpfF0=",
+                                    "range": {
+                                        "lower": "10358630599364896963",
+                                        "upper": "10486023023222516698"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "hSbiw0PJWqu0NrsAbnjRBXM1vT2P6lXWoQJz8atu9\/M=",
+                                    "range": {
+                                        "lower": "10604859095501527966",
+                                        "upper": "10864170861233114523"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "vXu3VyIt6yMojcIGBJZri1pod0LuLBaPijJeRBKors0=",
+                                    "range": {
+                                        "lower": "9870149565879585319",
+                                        "upper": "10358630599364896963"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Ah2HCfDGEf2CEOYN1WF12nkT+W+Sr974FUyuhJxZ4qU=",
+                                    "range": {
+                                        "lower": "10864170861233114523",
+                                        "upper": "11844686660502256395"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Y6H9+YRJzyhFkgYZ1j45Yg1iqrBxg9yVRmLToiBTooE=",
+                                    "range": {
+                                        "lower": "7890117952493975693",
+                                        "upper": "9870149565879585319"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "9ISw\/2lxdhRnSB8n\/S68OId7Lzc2o1jUb5xp6hwsbvQ=",
+                                    "range": {
+                                        "lower": "11844686660502256395",
+                                        "upper": "15852982848639608750"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "gKoW+P5ZkYULejl61DhrcZN\/3kv4K8vHLwqWlhAe3fo=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "7890117952493975693"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "xXhO1SfGMdMsSQC3ql7YSd7C+KGou5cMnqTQCDjCIUw=",
+                                    "range": {
+                                        "lower": "15852982848639608750",
+                                        "upper": "18446718792657140277"
+                                    }
+                                }
+                            ],
+                            "index": "43906",
+                            "target_range": {
+                                "merkleHash": "266YJoNezJLHznzVKRAn+RQsbe68CeRzrVUNl4gLr4g=",
+                                "range": {
+                                    "lower": "10577746275599317703",
+                                    "upper": "10577933542167719643"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "8c4eaa64b4b090391694fea0ba59569179b0e86954b04f6cd1c3e03351a40d12afa2bb1030875eba04de9629b17ed2cd64800e57baafecb7d54dbf9fcb477306"
+                }
+            },
+            "tx": "7w0K6wwKAS8S5QwKrwgIgtcCEjoKIDvi1zBeoMySwxQ0LjnZxVoft57cxr\/iNe6N7Svx2e85EhYI293itLLQl+aSARC7xN+G44uo5pIBEjoKIEOTa023UCb2A3Io96iOV5Sp78zbRcdW2qtHdbUfBuG3EhYI2e+8g9emsOSSARDH9buKnIbt5ZIBEjoKIPAn4Q0lTgWWx8cKiYFATFLMSe9t\/IgYi1mwBbxLMauCEhYIu8TfhuOLqOaSARC8iZ3\/0Yqa55IBEjoKIIy9Xzh9vWK+XYOFAnZmwUn\/xLzG02e2BmENfQw7Fuc8EhYIvImd\/9GKmueSARC9uoLYooCh6ZIBEjoKIAncGF+W21qjJQ67B9+41R+i0f8qnEBQWj6DSSNlF9oqEhYIvbqC2KKAoemSARDQ8eiT4vzY75IBEjoKIPfJLTMSFpBaRLkSfKWiuKq+aLvJuqK2Fvl+Ct7M699hEhYI0PHok+L82O+SARDGs4Okq7rF\/ZIBEjoKIJo3TMbBcKUWDQ+gihTw\/Rxe+VEfmZNHSIlBofE4qMthEhYIxrODpKu6xf2SARCet8GDkeWBlpMBEjoKIDJVUoC9lVY4apzi2YrAVcugMMNu35hsohtV7VY9gmc1EhYIsaDCxavy6q6SARDZ77yD16aw5JIBEjoKIEPnkm88UZixSoucHoBkNN8mIpChNPXzAA710kOxvpNqEhYI2tf77Z3M9cKRARCxoMLFq\/LqrpIBEjoKIEGFW75zMz2Um0Pp4m1TsdTXIOxZQNTdu8QnvWTGKXxdEhYIw9GLld30z+CPARDa1\/vtncz1wpEBEjoKIIUm4sNDyVqrtDa7AG540QVzNb09j+pV1qECc\/GrbvfzEhYInrfBg5HlgZaTARCbm8yX5rrS4pYBEjoKIL17t1ciLesjKI3CBgSWa4taaHdC7iwWj4oyXkQSqK7NEhYIp5TqkcaX9PyIARDD0YuV3fTP4I8BEjoKIAIdhwnwxhH9ghDmDdVhddp5E\/lvkq\/e+BVMroScWeKlEhYIm5vMl+a60uKWARCL9q3YsPixsKQBEjkKIGOh\/fmESc8oRZIGGdY+OWINYqqwcYPclUZi06IgU6KBEhUIjfHXkpaP1b9tEKeU6pHGl\/T8iAESOgog9ISw\/2lxdhRnSB8n\/S68OId7Lzc2o1jUb5xp6hwsbvQSFgiL9q3YsPixsKQBEK7PmNyH\/caA3AESLgoggKoW+P5ZkYULejl61DhrcZN\/3kv4K8vHLwqWlhAe3foSChCN8deSlo\/Vv20SOgogxXhO1SfGMdMsSQC3ql7YSd7C+KGou5cMnqTQCDjCIUwSFgiuz5jch\/3GgNwBELX0596coPr\/\/wEaOgog266YJoNezJLHznzVKRAn+RQsbe68CeRzrVUNl4gLr4gSFgjH9buKnIbt5ZIBENvd4rSy0JfmkgESrgQKqwQKQGQ5Mjk4NzdjZTNjYTljOTc0NjYwYTA3OWQwOTE3NzFhNmE2M2UxMjNhN2JiNDM2ZGY5ODkyNzhlODI1YTYzNzAQuJOr4d\/v91kY7YEDIkA1MTYyNmM3NTY2ZmVmNjIxZWY0ZGNmOWQyZmI3ZTM5NTg5ZjRmZTI4ZDY1OWU3NjExYzg1OTYzNjc4NGY1MDg1KgQwMDQwMo4CCgUwLjAuMRJAZWNmYWUzNDUyMTcwNTM5YWZmNTExNzU4NGFkZDE1ZWVmYmJlM2JkMjAyMGEyNTMyYTZkZDQ3ZmMwMmM2NjBiZBpAZTdlOTEyMDI1NzNiZGQxOTI3YjAwZmNlOWIwYjQ2ZmE3OTQ0YjA2ZTZmZTFiYzk4N2FiYzg2ZTRkMGRkNDdkNiKAATFjYzBlNjM1ZjUwYzZkNjBjYmI1ZWYzNzI0OWMzN2RmODgzNTBiOWNmMzNlMTJhMjJmN2I3NmIxMDgxMjBjNzZjNDYzYzRmZDNmNzhmZjhjYTk2Y2I1MzFjZjM2ZjUzY2EwMTk3MWQ2Njk4NzI4ZTU1NGFkNjllMjMzNmJiNTBiOoABZGIzNjlhNjg1ZTdiNGE3YzY3YzhiZWEyNDY3MmMyMjNhOWI4NGY5N2VjZDVhZGVmODk0MDdlOTM0MGQ3OWNiOGM2ZjI5MzJiM2IzOGM1N2ZmODdjNTdiOTkxNGY3OTk0YmVlNjQ4OGVkOThhMDdmNjEwZGQ5NjdhZGVkZmY0MGUYARIOCgV1cG9rdBIFMTAwMDAaZAogUWJsdWb+9iHvTc+dL7fjlYn0\/ijWWedhHIWWNnhPUIUSQIxOqmS0sJA5FpT+oLpZVpF5sOhpVLBPbNHD4DNRpA0Sr6K7EDCHXroE3pYpsX7SzWSADle6r+y31U2\/n8tHcwYo4ZDRx9\/Imr2nAQ==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "10B9189AD681452C1570796959D5EC245FB722131517620424077CE4F1D0D4D0",
+            "height": 49624,
+            "index": 409,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -6995892189593646000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "13ba3f6cf6a4c8f09713cec6451d555ef8a43c274d26aa0c257289de51b8a031",
+                            "chain": "0021",
+                            "session_height": "49617"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "o43n5C8y5v6SGPvEBU6bOjgyJ8F6oH7jqnZr214vWU0=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18445844160153606129"
+                            }
+                        },
+                        "total_proofs": "12057"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "e841e81658a777f366679c674a612bf95f6acf72285f0bd55f3c5c8e31c9e9a3328efc6b19422aa089d36c1045cb2228d45cc88a76d2a8b4350220de13b2b00e"
+                }
+            },
+            "tx": "uQIKtQEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmgEKTApAMTNiYTNmNmNmNmE0YzhmMDk3MTNjZWM2NDUxZDU1NWVmOGE0M2MyNzRkMjZhYTBjMjU3Mjg5ZGU1MWI4YTAzMRIEMDAyMRjRgwMSLwogo43n5C8y5v6SGPvEBU6bOjgyJ8F6oH7jqnZr214vWU0SCxDxr63hiLGz\/v8BGJleIhTKUq+5lETAKHjh4dWrfVV+Z9Z9gSgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJA6EHoFlind\/NmZ5xnSmEr+V9qz3IoXwvVXzxcjjHJ6aMyjvxrGUIqoInTbBBFyyIo1FzIinbSqLQ1AiDeE7KwDiibld2C6aPm9J4B",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "F13A361FFD83556E5418442457B8F08FBC2A156622D499640C580D339EC7766A",
+            "height": 49632,
+            "index": 374,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -101182614317968750,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "13ba3f6cf6a4c8f09713cec6451d555ef8a43c274d26aa0c257289de51b8a031",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "7f44f2e89a877a13a81b334e2975cfcfa5861fc030a6018e1a0b26b6f1d7279acf9d41022873c28c521d44fd8efa4ec93a3be9dd8f5c04ec665bdce38c03810b",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0021",
+                                "entropy": "96428250628442800",
+                                "request_hash": "5594a95be098aba3f7c8bd26c4c5a2371d78aab8bb7f148b5757d4ad2dc50a76",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "49617",
+                                "signature": "bac03f7c6399fddeb87146ee6dd1a6ce8e577cd9c19f8e2ba1af632acbdfae38d14fe037adfd166a60a0c20654321134579e1707227cc0411a95909d0765ca0d"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "ZQRgxyFfl2ATwUVPXMJf\/a3x6DLuLFzjktMF4KUtFYY=",
+                                    "range": {
+                                        "lower": "6957417039479330191",
+                                        "upper": "6960136347807908965"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "HKLcyzkb2xQ7t+kjo2bR2MK+qvvm70Q2YmSbE4M7d3s=",
+                                    "range": {
+                                        "lower": "6960775527519008722",
+                                        "upper": "6961135278353519258"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "cnikwFEAVUfHoaNuk4oHU9DN1Ws6W\/ssMWLPm5mcTDo=",
+                                    "range": {
+                                        "lower": "6952579530367587212",
+                                        "upper": "6957417039479330191"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "HE1xH92jbidERgp7yigwcZX4M8a3ejCPBEIz3SMYFoI=",
+                                    "range": {
+                                        "lower": "6945375207795012591",
+                                        "upper": "6952579530367587212"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "qV4oeyg1qckCyndaF\/J5wi47acQREZY0cXrI+8sreSo=",
+                                    "range": {
+                                        "lower": "6925666839286505532",
+                                        "upper": "6945375207795012591"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "cSmHRmNPMLc5cSVt8qftkM\/EeZfmkQ3nvjuGQa2CmhU=",
+                                    "range": {
+                                        "lower": "6961135278353519258",
+                                        "upper": "7009887462068185049"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ORpTxHuSgInRJ6la+ggGzruLhWv44ZgdTtPnSRHEQ9g=",
+                                    "range": {
+                                        "lower": "7009887462068185049",
+                                        "upper": "7094827150626808758"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "OwPA96cIKCqeOJG8MpOAZ8aPZCe3BXs1n+GWzZlAX6g=",
+                                    "range": {
+                                        "lower": "7094827150626808758",
+                                        "upper": "7305668593455819556"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "edUmM2YCy0G4RP6w7Wfb1E2DTYaqg01wHwT7YJ7YEss=",
+                                    "range": {
+                                        "lower": "7305668593455819556",
+                                        "upper": "7748925936788497920"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "wBx7sdu8jhybGXPeu9D4x0JMcguNJvI\/1uDXkCqeols=",
+                                    "range": {
+                                        "lower": "6170854680266830911",
+                                        "upper": "6925666839286505532"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "N9UOFee8NDAypfBXrCQMdoQSZT+61LqZy1unYjDcErM=",
+                                    "range": {
+                                        "lower": "7748925936788497920",
+                                        "upper": "9270124632703487377"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "IRHDcxV2Myco5pVO2GEBF37qJRA59tsyw3SyVK2QF5Y=",
+                                    "range": {
+                                        "lower": "9270124632703487377",
+                                        "upper": "12383414784353595096"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Qh5xKE0MlEJg4GG8oFaNptWMkIAUlXH4FZwnWRJ73\/8=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "6170854680266830911"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "kqYICJcm34tKFYf7qIWp78NPBvY5IPPmU1NLkJkphyE=",
+                                    "range": {
+                                        "lower": "12383414784353595096",
+                                        "upper": "18445844160153606129"
+                                    }
+                                }
+                            ],
+                            "index": "4637",
+                            "target_range": {
+                                "merkleHash": "0rcAZ3akmWD+nlDiC3oClZIdnegipDox+cyZ8hJNe+o=",
+                                "range": {
+                                    "lower": "6960136347807908965",
+                                    "upper": "6960775527519008722"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "0044d4ad0b6b5d2119635554261ef502d89a35f3f3b4dbbc41615cd232d67c08b01ac12e7a0f12a8ab7c7df0e41046b7fb5f6f04e7781cf908ae3f93ea4f610a"
+                }
+            },
+            "tx": "pQwKoQsKAS8SmwsK5AYInSQSOAogZQRgxyFfl2ATwUVPXMJf\/a3x6DLuLFzjktMF4KUtFYYSFAiPq6nD973txmAQ5YiAu5zk18tgEjgKIByi3Ms5G9sUO7fpI6Nm0djCvqr75u9ENmJkmxODO3d7EhQI0u+CuOaO6cxgEJqlzt329LrNYBI4CiByeKTAUQBVR8eho26TigdT0M3Vazpb+ywxYs+bmZxMOhIUCIyn2eHxx6G+YBCPq6nD973txmASOAogHE1xH92jbidERgp7yigwcZX4M8a3ejCPBEIz3SMYFoISFAjv57TjwL67sWAQjKfZ4fHHob5gEjgKIKleKHsoNanJAsp3WhfyecIuO2nEERGWNHF6yPvLK3kqEhQIvMD\/4r6puo5gEO\/ntOPAvruxYBI4CiBxKYdGY08wtzlxJW3yp+2Qz8R5l+aRDee+O4ZBrYKaFRIUCJqlzt329LrNYBDZz6fgm\/CHpGESOAogORpTxHuSgInRJ6la+ggGzruLhWv44ZgdTtPnSRHEQ9gSFAjZz6fgm\/CHpGEQtsehv8H2+LpiEjgKIDsDwPenCCgqnjiRvDKTgGfGj2QntwV7NZ\/hls2ZQF+oEhQItsehv8H2+LpiEKTWpf2O3LyxZRI4CiB51SYzZgLLQbhE\/rDtZ9vUTYNNhqqDTXAfBPtgntgSyxIUCKTWpf2O3LyxZRCAzNvo1+LtxGsSOAogwBx7sdu8jhybGXPeu9D4x0JMcguNJvI\/1uDXkCqeolsSFAi\/6PHOsfTR0VUQvMD\/4r6puo5gEjkKIDfVDhXnvDQwMqXwV6wkDHaEEmU\/utS6mctbp2Iw3BKzEhUIgMzb6Nfi7cRrEJGbj9\/Pp4bTgAESOgogIRHDcxV2Myco5pVO2GEBF37qJRA59tsyw3SyVK2QF5YSFgiRm4\/fz6eG04ABENjd3f2txK7tqwESLgogQh5xKE0MlEJg4GG8oFaNptWMkIAUlXH4FZwnWRJ73\/8SChC\/6PHOsfTR0VUSOgogkqYICJcm34tKFYf7qIWp78NPBvY5IPPmU1NLkJkphyESFgjY3d39rcSu7asBEPGvreGIsbP+\/wEaOAog0rcAZ3akmWD+nlDiC3oClZIdnegipDox+cyZ8hJNe+oSFAjliIC7nOTXy2AQ0u+CuOaO6cxgEq8ECqwECkA1NTk0YTk1YmUwOThhYmEzZjdjOGJkMjZjNGM1YTIzNzFkNzhhYWI4YmI3ZjE0OGI1NzU3ZDRhZDJkYzUwYTc2ELCVlci6n6WrARjRgwMiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwMjEyjgIKBTAuMC4xEkAxM2JhM2Y2Y2Y2YTRjOGYwOTcxM2NlYzY0NTFkNTU1ZWY4YTQzYzI3NGQyNmFhMGMyNTcyODlkZTUxYjhhMDMxGkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABN2Y0NGYyZTg5YTg3N2ExM2E4MWIzMzRlMjk3NWNmY2ZhNTg2MWZjMDMwYTYwMThlMWEwYjI2YjZmMWQ3Mjc5YWNmOWQ0MTAyMjg3M2MyOGM1MjFkNDRmZDhlZmE0ZWM5M2EzYmU5ZGQ4ZjVjMDRlYzY2NWJkY2UzOGMwMzgxMGI6gAFiYWMwM2Y3YzYzOTlmZGRlYjg3MTQ2ZWU2ZGQxYTZjZThlNTc3Y2Q5YzE5ZjhlMmJhMWFmNjMyYWNiZGZhZTM4ZDE0ZmUwMzdhZGZkMTY2YTYwYTBjMjA2NTQzMjExMzQ1NzllMTcwNzIyN2NjMDQxMWE5NTkwOWQwNzY1Y2EwZBgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAAETUrQtrXSEZY1VUJh71AtiaNfPztNu8QWFc0jLWfAiwGsEueg8SqKt8ffDkEEa3+19vBOd4HPkIrj+T6k9hCiiWpYfBrN6hzP4B",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "755129A21A07148532E7CE49A0B1B0A6E105832264D1E7528AAC27F82BB9FCF6",
+            "height": 49856,
+            "index": 352,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -1269467230806386700,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "242f3cb1fd694be72fe008cecd8f10bdaf06a963245d3b89014efe7b33607f1b",
+                            "chain": "0040",
+                            "session_height": "49849"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "k\/fRMmiv8JHzyh4ezcwANhWfsISAV5qSjQmj9QzqNIk=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18446433666129079869"
+                            }
+                        },
+                        "total_proofs": "43153"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "1455b1cc102661b453adcb637edcb98f14fc6a39f589e19247461458bebb26d777e53d00278b1ad8621ed99de845ed70fb9dcb277328df360cdccc76f0b8fa0e"
+                }
+            },
+            "tx": "ugIKtgEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmwEKTApAMjQyZjNjYjFmZDY5NGJlNzJmZTAwOGNlY2Q4ZjEwYmRhZjA2YTk2MzI0NWQzYjg5MDE0ZWZlN2IzMzYwN2YxYhIEMDA0MBi5hQMSLwogk\/fRMmiv8JHzyh4ezcwANhWfsISAV5qSjQmj9QzqNIkSCxC93LjT+bW5\/\/8BGJHRAiIUylKvuZREwCh44eHVq31VfmfWfYEoARIOCgV1cG9rdBIFMTAwMDAaZAogUWJsdWb+9iHvTc+dL7fjlYn0\/ijWWedhHIWWNnhPUIUSQBRVscwQJmG0U63LY37cuY8U\/Go59YnhkkdGFFi+uybXd+U9ACeLGthiHtmd6EXtcPudyydzKN82DNzMdvC4+g4oiK+l7vjI\/LDuAQ==",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "5E091EA3776E96F5FA101DA916DA1EDA6E99FFE2D76E2803D8684B59B656DB1B",
+            "height": 49864,
+            "index": 565,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -2768037035057635000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "242f3cb1fd694be72fe008cecd8f10bdaf06a963245d3b89014efe7b33607f1b",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "79518cc7274d16a6c727e52f74c592bb7ea02ef21d17dfa8255fa97f9d01e01db3bdc6ad1f4a757037620dc8a599e9bc2c0d0f53ed6a6dafba34a08f75b3e90f",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "87515969762200770",
+                                "request_hash": "2ae3b4fcd183e93b124d296fe8f7d0fce2b477c99daade48cf853eba537b91e2",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "49849",
+                                "signature": "9c210001c0436f58e2e13a38561a0b699e14f52b99ca1acb99077602d37b4705de03ef2f414e113dedce108b95e791e90643fc54f33334c08db3615c2602780f"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "6iVcaxNOOFnVIl6svWCHR3\/0nq4mlgbRAVamTWAoRAA=",
+                                    "range": {
+                                        "lower": "6428284237634998988",
+                                        "upper": "6428974313383929322"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "+6CyWefTEv+1jMyWn0Si56BfZAgvnSAy6FWvhB4sLOo=",
+                                    "range": {
+                                        "lower": "6428974313383929322",
+                                        "upper": "6429480636795570678"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "x6yx+8i2+c8u5PzWapsUx8tOI7FFYs+1+R4a6RsY5Ks=",
+                                    "range": {
+                                        "lower": "6426200785689840421",
+                                        "upper": "6427418346965735528"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "\/vEP0p1g++s18+HmChlu3zo8o+QLTF8WAmX7e1QFhho=",
+                                    "range": {
+                                        "lower": "6429480636795570678",
+                                        "upper": "6433919390114758953"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "cJrXG\/GmbwJyQAW\/5\/jThxHrDg2IuMQ3FuHdtfN\/83o=",
+                                    "range": {
+                                        "lower": "6421901602816887454",
+                                        "upper": "6426200785689840421"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "HkbChcHoJ4hb6MzTTdneV57ztCn+lwTmxB08TudvhzE=",
+                                    "range": {
+                                        "lower": "6410132217745540657",
+                                        "upper": "6421901602816887454"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "I9hpny7MR\/vPE46+Xn3Go+4bI6hXzV4a8NMlayyslko=",
+                                    "range": {
+                                        "lower": "6380510488635011502",
+                                        "upper": "6410132217745540657"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "KyiqmjTgwiNTJII9GW7Rir17Bh7vhq\/U2nYgH0fAjGo=",
+                                    "range": {
+                                        "lower": "6328725028116442632",
+                                        "upper": "6380510488635011502"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "NnMW7WLJ4xZDxsm+rKMxFFgzWcWaF8gMXoOEVRp16GI=",
+                                    "range": {
+                                        "lower": "6433919390114758953",
+                                        "upper": "6560021223317309569"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "jJHWbHQmHv4C3lPBqSy2NTzddJv6mRt+OAa7NKHJ8fU=",
+                                    "range": {
+                                        "lower": "6119774326528527907",
+                                        "upper": "6328725028116442632"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "Audflk3WL3JHSi9ugW6SeIjyL2pD5MMuRR1aqRPoVo8=",
+                                    "range": {
+                                        "lower": "6560021223317309569",
+                                        "upper": "7010544659341989603"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "GPV4tGzu8vhOO9wN3gDKiGKWElNTPgYPC\/9cGOX9Wms=",
+                                    "range": {
+                                        "lower": "5213295398555738511",
+                                        "upper": "6119774326528527907"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "HbHGHB2ipAL7M4AGOzueRZwnfp+KHv8XzU\/eZ1D0zb8=",
+                                    "range": {
+                                        "lower": "3481442032729383374",
+                                        "upper": "5213295398555738511"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "7PCqo7ObTQ1Gnm9xp2ErEKWRkvLI0BpdZK1IqYLvRTk=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "3481442032729383374"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "AlKZIhTHE88CUwTwaL8pDH7kfc4aS1TZeCMP+TYbEDI=",
+                                    "range": {
+                                        "lower": "7010544659341989603",
+                                        "upper": "14061316758612894786"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "\/VTspPhZQGlF6uCZdoLVGh87DiXgEHVs0GE4N+qO7SI=",
+                                    "range": {
+                                        "lower": "14061316758612894786",
+                                        "upper": "18446433666129079869"
+                                    }
+                                }
+                            ],
+                            "index": "15092",
+                            "target_range": {
+                                "merkleHash": "zBJ6o3TaNVlASy\/ePA3LAyl1gCMOZiKUKbyfAQc5Tms=",
+                                "range": {
+                                    "lower": "6427418346965735528",
+                                    "upper": "6428284237634998988"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "6e6773b91f486aef4af50056f8632248c775b420e4fd1c9f59b5a0a7d313349964628c48925a054121c7fd63f3b1783f08239ac4786af2c473df7c364c14580b"
+                }
+            },
+            "tx": "lw0KkwwKAS8SjQwK1gcI9HUSOAog6iVcaxNOOFnVIl6svWCHR3\/0nq4mlgbRAVamTWAoRAASFAjMpeibys72mlkQ6svw2rbCk5xZEjgKIPugslnn0xL\/tYzMlp9EouegX2QIL50gMuhVr4QeLCzqEhQI6svw2rbCk5xZEPaTz7Ow0oadWRI4CiDHrLH7yLb5zy7k\/NZqmxTHy04jsUViz7X5HhrpGxjkqxIUCKWWhPOS8pyXWRDosOKN7N2xmVkSOAog\/vEP0p1g++s18+HmChlu3zo8o+QLTF8WAmX7e1QFhhoSFAj2k8+zsNKGnVkQqYKnio3z96RZEjgKIHCa1xvxpm8CckAFv+f404cR6w4NiLjENxbh3bXzf\/N6EhQInpWm07qvy49ZEKWWhPOS8pyXWRI4CiAeRsKFwegniFvozNNN2d5XnvO0Kf6XBObEHTxO52+HMRIUCLGMitCiqdf6WBCelabTuq\/Lj1kSOAogI9hpny7MR\/vPE46+Xn3Go+4bI6hXzV4a8NMlayyslkoSFAiu4\/nFvo+IxlgQsYyK0KKp1\/pYEjgKICsoqpo04MIjUySCPRlu0Yq9ewYe74av1Np2IB9HwIxqEhQIiNyE8Jy8iepXEK7j+cW+j4jGWBI4CiA2cxbtYsnjFkPGyb6sozEUWDNZxZoXyAxeg4RVGnXoYhIUCKmCp4qN8\/ekWRCBkej2vJH4hFsSOAogjJHWbHQmHv4C3lPBqSy2NTzddJv6mRt+OAa7NKHJ8fUSFAijnKeyt8rz9lQQiNyE8Jy8iepXEjgKIALnX5ZN1i9yR0ovboFukniI8i9qQ+TDLkUdWqkT6FaPEhQIgZHo9ryR+IRbEOOt3bCWp52lYRI4CiAY9Xi0bO7y+E473A3eAMqIYpYSU1M+Bg8L\/1wY5f1aaxIUCI\/D36CzkdasSBCjnKeyt8rz9lQSOAogHbHGHB2ipAL7M4AGOzueRZwnfp+KHv8XzU\/eZ1D0zb8SFAjOw8uX1aKkqDAQj8PfoLOR1qxIEi4KIOzwqqOzm00NRp5vcadhKxClkZLyyNAaXWStSKmC70U5EgoQzsPLl9WipKgwEjkKIAJSmSIUxxPPAlME8Gi\/KQx+5H3OGktU2XgjD\/k2GxAyEhUI463dsJannaVhEMLI+br4ovWRwwESOgog\/VTspPhZQGlF6uCZdoLVGh87DiXgEHVs0GE4N+qO7SISFgjCyPm6+KL1kcMBEL3cuNP5tbn\/\/wEaOAogzBJ6o3TaNVlASy\/ePA3LAyl1gCMOZiKUKbyfAQc5TmsSFAjosOKN7N2xmVkQzKXom8rO9ppZEq8ECqwECkAyYWUzYjRmY2QxODNlOTNiMTI0ZDI5NmZlOGY3ZDBmY2UyYjQ3N2M5OWRhYWRlNDhjZjg1M2ViYTUzN2I5MWUyEMKZ5o756bqbARi5hQMiQDUxNjI2Yzc1NjZmZWY2MjFlZjRkY2Y5ZDJmYjdlMzk1ODlmNGZlMjhkNjU5ZTc2MTFjODU5NjM2Nzg0ZjUwODUqBDAwNDAyjgIKBTAuMC4xEkAyNDJmM2NiMWZkNjk0YmU3MmZlMDA4Y2VjZDhmMTBiZGFmMDZhOTYzMjQ1ZDNiODkwMTRlZmU3YjMzNjA3ZjFiGkBlN2U5MTIwMjU3M2JkZDE5MjdiMDBmY2U5YjBiNDZmYTc5NDRiMDZlNmZlMWJjOTg3YWJjODZlNGQwZGQ0N2Q2IoABNzk1MThjYzcyNzRkMTZhNmM3MjdlNTJmNzRjNTkyYmI3ZWEwMmVmMjFkMTdkZmE4MjU1ZmE5N2Y5ZDAxZTAxZGIzYmRjNmFkMWY0YTc1NzAzNzYyMGRjOGE1OTllOWJjMmMwZDBmNTNlZDZhNmRhZmJhMzRhMDhmNzViM2U5MGY6gAE5YzIxMDAwMWMwNDM2ZjU4ZTJlMTNhMzg1NjFhMGI2OTllMTRmNTJiOTljYTFhY2I5OTA3NzYwMmQzN2I0NzA1ZGUwM2VmMmY0MTRlMTEzZGVkY2UxMDhiOTVlNzkxZTkwNjQzZmM1NGYzMzMzNGMwOGRiMzYxNWMyNjAyNzgwZhgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAbmdzuR9Iau9K9QBW+GMiSMd1tCDk\/RyfWbWgp9MTNJlkYoxIkloFQSHH\/WPzsXg\/CCOaxHhq8sRz33w2TBRYCyj0xI7Ct5\/9ytkB",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "0287DF1C7575F20BDA938E28F4D665D404ABBFAA21FF1D5198ABE16224585924",
+            "height": 50120,
+            "index": 729,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": 4987763164354801000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/claim",
+                    "value": {
+                        "evidence_type": "1",
+                        "expiration_height": "0",
+                        "from_address": "ca52afb99444c02878e1e1d5ab7d557e67d67d81",
+                        "header": {
+                            "app_public_key": "3dde8f9b935ca50e01c4ed20fad63bc540ddc77c2563e51d550b791aa57bd91f",
+                            "chain": "0040",
+                            "session_height": "50113"
+                        },
+                        "merkle_root": {
+                            "merkleHash": "Q4qruJ9O\/++v2C3XDqmawArLTqNpeR+shUPb1rPN5Nw=",
+                            "range": {
+                                "lower": "0",
+                                "upper": "18445806683739943495"
+                            }
+                        },
+                        "total_proofs": "14287"
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "195801e9e39e146963c5229dbd54f22f5529593a1663d62589e1917b50ab03ed5424754e360cfd66cc794f91beb275a86abf07c4b03230a79670d2e0387c2b01"
+                }
+            },
+            "tx": "uAIKtQEKFi94LnBvY2tldGNvcmUuTXNnQ2xhaW0SmgEKTApAM2RkZThmOWI5MzVjYTUwZTAxYzRlZDIwZmFkNjNiYzU0MGRkYzc3YzI1NjNlNTFkNTUwYjc5MWFhNTdiZDkxZhIEMDA0MBjBhwMSLwogQ4qruJ9O\/++v2C3XDqmawArLTqNpeR+shUPb1rPN5NwSCxDH5OGeru6q\/v8BGM9vIhTKUq+5lETAKHjh4dWrfVV+Z9Z9gSgBEg4KBXVwb2t0EgUxMDAwMBpkCiBRYmx1Zv72Ie9Nz50vt+OVifT+KNZZ52EchZY2eE9QhRJAGVgB6eOeFGljxSKdvVTyL1UpWToWY9YlieGRe1CrA+1UJHVONgz9Zsx5T5G+snWoar8HxLAyMKeWcNLgOHwrASjZ25WZv4WGnEU=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "claim",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        },
+        {
+            "hash": "B2B7AE37BD5A6F96B633799B97B849E3B57E85AE5725D329465F629533BA221B",
+            "height": 50128,
+            "index": 797,
+            "proof": {
+                "data": null,
+                "proof": {
+                    "aunts": null,
+                    "index": 0,
+                    "leaf_hash": null,
+                    "total": 0
+                },
+                "root_hash": ""
+            },
+            "stdTx": {
+                "entropy": -8262861237147999000,
+                "fee": [
+                    {
+                        "amount": "10000",
+                        "denom": "upokt"
+                    }
+                ],
+                "memo": "",
+                "msg": {
+                    "type": "pocketcore\/proof",
+                    "value": {
+                        "evidence_type": "1",
+                        "leaf": {
+                            "type": "pocketcore\/relay_proof",
+                            "value": {
+                                "aat": {
+                                    "app_pub_key": "3dde8f9b935ca50e01c4ed20fad63bc540ddc77c2563e51d550b791aa57bd91f",
+                                    "client_pub_key": "e7e91202573bdd1927b00fce9b0b46fa7944b06e6fe1bc987abc86e4d0dd47d6",
+                                    "signature": "e2996435e390611e63caff53ed5a6dc2e21723c24dbdd293ffa6d709e75e9c7cf0f6e5542b7ca489500e92e047909d2c9fb81b44bc89b664ecbf2e463bfbfb04",
+                                    "version": "0.0.1"
+                                },
+                                "blockchain": "0040",
+                                "entropy": "3776266286060714",
+                                "request_hash": "16a2439b0459c3fb5436715c1cec974d02d6602bf18b1c1e8578489f79e53bf1",
+                                "servicer_pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                                "session_block_height": "50113",
+                                "signature": "9044f26fd8b31ed65f3379fd5df3f2fc03d8b432a46a422e23b0c67ce7adcc246893cc358f44ca798f8ecb78f0f2239eda7eeaa3f1bfa5c4b69faf3fc93d0908"
+                            }
+                        },
+                        "merkle_proofs": {
+                            "hash_ranges": [
+                                {
+                                    "merkleHash": "kp0H9Qc2HvS4pTBc8QDvKPqArjo07XH6MjGRTTyGOHg=",
+                                    "range": {
+                                        "lower": "17590105720250768593",
+                                        "upper": "17590556602359324050"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "SC5FIp8v8Gp8TDVOqp41TWQsua74gXMVTywAfTGIvbU=",
+                                    "range": {
+                                        "lower": "17588825540779558868",
+                                        "upper": "17590105720250768593"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "KVQiWwr9ru2FsAwSOcHo46XcQBft74cw8cVlWUg+UNY=",
+                                    "range": {
+                                        "lower": "17586512525678041804",
+                                        "upper": "17588825540779558868"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "62pRmiu3NZ7OESK6nPayNKphtBJGRbq4duMBl8oYr14=",
+                                    "range": {
+                                        "lower": "17590765556695034089",
+                                        "upper": "17595294563987069129"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "ZbfUz1lOu8U\/RWTerNWbvuZRFduulmoNj5v1A0hDZ7c=",
+                                    "range": {
+                                        "lower": "17558579518950265080",
+                                        "upper": "17586512525678041804"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "iT74ZaotBwsj4pSYrkg9waGmq\/4Vnldk+3nh1iy1MPY=",
+                                    "range": {
+                                        "lower": "17505849814744237641",
+                                        "upper": "17558579518950265080"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "mKhY65HGxFHrXieEqIj4lWmVvEe5O6ueT0t\/66UygdU=",
+                                    "range": {
+                                        "lower": "17595294563987069129",
+                                        "upper": "17669679745484225587"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "\/1J4IOxKglg+X3IqdIAKCnlXZLa2BZ65+PovaXsm+d4=",
+                                    "range": {
+                                        "lower": "17669679745484225587",
+                                        "upper": "17833737405399506417"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "aZ7Dpx7NGZp+cNYlvnIEzkytIQchxKaVP9nqPCZkRRA=",
+                                    "range": {
+                                        "lower": "17175821364804566317",
+                                        "upper": "17505849814744237641"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "XZQ0X9cFDsbtX6wBtwA9Gs0Qhj07DqI00KvN0mkfg1Y=",
+                                    "range": {
+                                        "lower": "17833737405399506417",
+                                        "upper": "18445806683739941447"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "F9U3ZlEJkNc9Orxun5rCQ2ndcVFt8SROxTqNRPLl6R8=",
+                                    "range": {
+                                        "lower": "15773240628919014027",
+                                        "upper": "17175821364804566317"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "5nRnUxlTAfMJm+TrJul+27h\/ebdiZSsb3\/u823i1uLo=",
+                                    "range": {
+                                        "lower": "18445806683739941447",
+                                        "upper": "18445806683739943495"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "hIzAmJRBiyQKW6lZ0o+dpfpeMzQ9vLYVU07M04KrMw4=",
+                                    "range": {
+                                        "lower": "10519268582446442309",
+                                        "upper": "15773240628919014027"
+                                    }
+                                },
+                                {
+                                    "merkleHash": "LoVmZOOtQHgqL\/lVuqPn2exinVXsRhEgi1+sw9u0aA0=",
+                                    "range": {
+                                        "lower": "0",
+                                        "upper": "10519268582446442309"
+                                    }
+                                }
+                            ],
+                            "index": "13623",
+                            "target_range": {
+                                "merkleHash": "6ej77RL0HvRx3bJ4wWgnLDIqq7dWgdW30yn3eHaFDlw=",
+                                "range": {
+                                    "lower": "17590556602359324050",
+                                    "upper": "17590765556695034089"
+                                }
+                            }
+                        }
+                    }
+                },
+                "signature": {
+                    "pub_key": "51626c7566fef621ef4dcf9d2fb7e39589f4fe28d659e7611c859636784f5085",
+                    "signature": "b6a53f26671afa98e4e85148878e07c36bce064f6d9204bb230bb22c472561cbc886ffc103ee35d56b4cc6d0b308ee661685be53e75b4718656d11f94d13ea03"
+                }
+            },
+            "tx": "vAwKuAsKAS8SsgsK\/AYIt2oSOgogkp0H9Qc2HvS4pTBc8QDvKPqArjo07XH6MjGRTTyGOHgSFgjRufTIzP6mjvQBEJK7nqj\/wI2P9AESOgogSC5FIp8v8Gp8TDVOqp41TWQsua74gXMVTywAfTGIvbUSFgjUj++zvPSDjPQBENG59MjM\/qaO9AESOgogKVQiWwr9ru2FsAwSOcHo46XcQBft74cw8cVlWUg+UNYSFgjMtf3X7\/71h\/QBENSP77O89IOM9AESOgog62pRmiu3NZ7OESK6nPayNKphtBJGRbq4duMBl8oYr14SFgjp0e\/vroK9j\/QBEMmxvubp5cKX9AESOgogZbfUz1lOu8U\/RWTerNWbvuZRFduulmoNj5v1A0hDZ7cSFgj4oevbsOGm1vMBEMy1\/dfv\/vWH9AESOgogiT74ZaotBwsj4pSYrkg9waGmq\/4Vnldk+3nh1iy1MPYSFgjJjKyZgbXR+PIBEPih69uw4abW8wESOgogmKhY65HGxFHrXieEqIj4lWmVvEe5O6ueT0t\/66UygdUSFgjJsb7m6eXCl\/QBELP4geTEg9Sb9QESOgog\/1J4IOxKglg+X3IqdIAKCnlXZLa2BZ65+PovaXsm+d4SFgiz+IHkxIPUm\/UBEPG7vNPttYq\/9wESOgogaZ7Dpx7NGZp+cNYlvnIEzkytIQchxKaVP9nqPCZkRRASFgit+va1+tCxru4BEMmMrJmBtdH48gESOgogXZQ0X9cFDsbtX6wBtwA9Gs0Qhj07DqI00KvN0mkfg1YSFgjxu7zT7bWKv\/cBEMfU4Z6u7qr+\/wESOgogF9U3ZlEJkNc9Orxun5rCQ2ndcVFt8SROxTqNRPLl6R8SFgiLpeibgtnz8toBEK369rX60LGu7gESOgog5nRnUxlTAfMJm+TrJul+27h\/ebdiZSsb3\/u823i1uLoSFgjH1OGeru6q\/v8BEMfk4Z6u7qr+\/wESOgoghIzAmJRBiyQKW6lZ0o+dpfpeMzQ9vLYVU07M04KrMw4SFgjFzpaNreH8\/ZEBEIul6JuC2fPy2gESLwogLoVmZOOtQHgqL\/lVuqPn2exinVXsRhEgi1+sw9u0aA0SCxDFzpaNreH8\/ZEBGjoKIOno++0S9B70cd2yeMFoJywyKqu3VoHVt9Mp93h2hQ5cEhYIkrueqP\/AjY\/0ARDp0e\/vroK9j\/QBEq4ECqsECkAxNmEyNDM5YjA0NTljM2ZiNTQzNjcxNWMxY2VjOTc0ZDAyZDY2MDJiZjE4YjFjMWU4NTc4NDg5Zjc5ZTUzYmYxEKqpu5Toz9oGGMGHAyJANTE2MjZjNzU2NmZlZjYyMWVmNGRjZjlkMmZiN2UzOTU4OWY0ZmUyOGQ2NTllNzYxMWM4NTk2MzY3ODRmNTA4NSoEMDA0MDKOAgoFMC4wLjESQDNkZGU4ZjliOTM1Y2E1MGUwMWM0ZWQyMGZhZDYzYmM1NDBkZGM3N2MyNTYzZTUxZDU1MGI3OTFhYTU3YmQ5MWYaQGU3ZTkxMjAyNTczYmRkMTkyN2IwMGZjZTliMGI0NmZhNzk0NGIwNmU2ZmUxYmM5ODdhYmM4NmU0ZDBkZDQ3ZDYigAFlMjk5NjQzNWUzOTA2MTFlNjNjYWZmNTNlZDVhNmRjMmUyMTcyM2MyNGRiZGQyOTNmZmE2ZDcwOWU3NWU5YzdjZjBmNmU1NTQyYjdjYTQ4OTUwMGU5MmUwNDc5MDlkMmM5ZmI4MWI0NGJjODliNjY0ZWNiZjJlNDYzYmZiZmIwNDqAATkwNDRmMjZmZDhiMzFlZDY1ZjMzNzlmZDVkZjNmMmZjMDNkOGI0MzJhNDZhNDIyZTIzYjBjNjdjZTdhZGNjMjQ2ODkzY2MzNThmNDRjYTc5OGY4ZWNiNzhmMGYyMjM5ZWRhN2VlYWEzZjFiZmE1YzRiNjlmYWYzZmM5M2QwOTA4GAESDgoFdXBva3QSBTEwMDAwGmQKIFFibHVm\/vYh703PnS+345WJ9P4o1lnnYRyFljZ4T1CFEkC2pT8mZxr6mOToUUiHjgfDa84GT22SBLsjC7IsRyVhy8iG\/8ED7jXVa0zG0LMI7mYWhb5T51tHGGVtEflNE+oDKIbFy9u775qqjQE=",
+            "tx_result": {
+                "code": 0,
+                "codespace": "",
+                "data": null,
+                "events": null,
+                "info": "",
+                "log": "",
+                "message_type": "proof",
+                "recipient": "",
+                "signer": "CA52AFB99444C02878E1E1D5AB7D557E67D67D81"
+            }
+        }
+    ]
+}
